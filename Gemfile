@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-gem 'eventmachine', :git => 'https://github.com/eventmachine/eventmachine.git', :branch => 'master'
 gem 'eventmachine', '= 1.2.7', github: 'eventmachine', branch: 'master'
 gem "jekyll-theme-chirpy", "~> 6.2", ">= 6.2.3"
 
