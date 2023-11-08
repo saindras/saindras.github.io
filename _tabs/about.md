@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Web ini merupakan wadah publikasi dan catatan terkait analisis data statistik dan hasil penelitian. Untuk halaman resmi lainnya, silakan kunjungi <https://saindra.unidksha.ac.id> dan <https://saindra.net>.
+Web ini merupakan wadah publikasi dan catatan terkait analisis data statistik dan hasil penelitian. Untuk halaman resmi lainnya, silakan kunjungi <https://saindra.undiksha.ac.id> dan <https://saindra.net>.
 
 ## Biografi singkat penulis
 
