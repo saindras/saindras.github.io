@@ -2,6 +2,7 @@
 
 source "https://rubygems.org"
 gem 'eventmachine', :git => 'https://github.com/eventmachine/eventmachine.git', :branch => 'master'
+gem 'eventmachine', '= 1.2.7', github: 'eventmachine', branch: 'master'
 gem "jekyll-theme-chirpy", "~> 6.2", ">= 6.2.3"
 
 group :test do
@@ -22,3 +23,4 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem 'jekyll-compose', group: [:jekyll_plugins]
+git_source(:github) { |saindras.github.io| "https://github.com/#{saindras.github.io}.git" }
