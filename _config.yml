@@ -9,7 +9,7 @@ theme: jekyll-theme-chirpy
 lang: en
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
-timezone:
+timezone: Asia/Jakarta
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -19,11 +19,11 @@ title: Santyadiputra # the main title
 tagline: Journey toward's consistency # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+  Lecturer, freelancer, Never asked for this
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://saindras.github.io"
 
 github:
   username: saindras # change to your github username
@@ -41,8 +41,8 @@ social:
     - https://twitter.com/saindras # change to your twitter homepage
     - https://github.com/saindras # change to your github homepage
     # Uncomment below to add more social links
-     - https://www.facebook.com/saindrasantyadi
-     - https://www.linkedin.com/in/gsaindras
+    - https://www.facebook.com/saindrasantyadi
+    - https://www.linkedin.com/in/gsaindras
 
 google_site_verification: # fill in to your verification string
 
@@ -70,7 +70,7 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn:
+img_cdn: "https://ucarecdn.com/de5254d3-297f-436f-9076-3d5b99baeab3/-/preview/500x500/-/quality/smart_retina/-/format/auto/"
 
 # the avatar on sidebar, support local or CORS resources
 avatar:
