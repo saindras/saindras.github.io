@@ -14,7 +14,7 @@ timezone: Asia/Jakarta
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Santyadiputra # the main title
+title: Santyadiputra, G.S. # the main title
 
 tagline: Journey toward's consistency # it will display as the sub-title
 
@@ -73,7 +73,7 @@ theme_mode: # [light|dark]
 img_cdn: https://ucarecdn.com
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: /de5254d3-297f-436f-9076-3d5b99baeab3
 
 # boolean type, the global switch for TOC in posts.
 toc: true
