@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 gem 'eventmachine', '~> 1.2', '>= 1.2.7'
-gem "jekyll-theme-chirpy", "~> 6.2", ">= 6.2.3"
+gem "jekyll-theme-chirpy", "~> 6.3.1"
 
 group :test do
   gem "html-proofer", "~> 4.4"
