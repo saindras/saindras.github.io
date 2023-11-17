@@ -37,7 +37,7 @@ Variabel-variabel penelitiannya adalah sebagai berikut.
 
 ## Diagram konstelasi dan hipotesis penelitian
 
-![Diagram konstelasi](/168b7649-84d8-4516-a556-63b1ca201f08/){: .w-50 .right }
+![Diagram konstelasi](/fc7143ec-8da3-4ee2-8314-68655f475cfa/){: .light .w-75 .shadow .rounded-10 .left }
 _Gambar 1. Diagram konstelasi antar variabel_
 Gambar 1 menunjukkan hubungan antar variabel. Hubungan tersebut memandu peneliti untuk menentukan hipotesis-hipotesis penelitian dalam rangka tercapainya tujuan-tujuan penelitan. Adapun hipotesis-hipotesis penelitian adalah sebagai berikut.
 1. H1: Terdapat pengaruh yang signifikan VLEs terhadap prestasi belajar dikontrol oleh pretest.
