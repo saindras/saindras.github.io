@@ -19,7 +19,7 @@ Seorang peneliti ingin mengetahui pengaruh dari suatu [*Virtual Learning Environ
 
 Sampai di sini, kita mengetahui ada 3 kelas dalam penelitian tersebut. Kelas ke-1 dinamakan VLE1 (VLEs dengan suplemen video), kelas ke-2 dinamakan VLE2 (VLEs dengan suplemen Cisco-PT), dan kelas ke-3 dinamakan VLE3 (VLEs dengan suplemen Vilanets). Kelas-kelas tersebut nantinya akan menjadi kelompok/dimensi di dalam variabel bebas Ancova. Jika menggunakan 3 kelas (atau lebih), maka akan ada kemungkinan perhitungan akan dilanjutkan ke *post-hoc test* ketika terdapat pengaruh antara VLEs dan prestasi belajar.
 
-Karena ini adalah penelitian kuantitatif di mana tujuannya adalah menguji teori, teori baru yang diajukan harus dikontruksi. Misalnya, peneliti ingin menguji teori VLEs. Oleh karena itu, disarankan ada teori baru turunan dari VLEs. Peneliti mengajukan  teori bernama `Advanced VLEs`. Apabila dikaitkan dengan 3 kelas sebelumnya, dikontruksi teori sebagai berikut. VLE1 mewakili teori `Beginner VLEs`, VLE2 mewakili teori `Intermediate VLEs`, dan VLE3 mewakili teori `Advanced VLEs`.
+Karena ini adalah penelitian kuantitatif di mana tujuannya adalah menguji teori, teori baru yang diajukan harus dikontruksi. Misalnya, peneliti ingin menguji teori VLEs. Oleh karena itu, disarankan ada teori baru turunan dari VLEs. Peneliti mengajukan  teori bernama *Advanced VLEs*. Apabila dikaitkan dengan 3 kelas sebelumnya, dikontruksi teori sebagai berikut. VLE1 mewakili teori `Beginner VLEs`, VLE2 mewakili teori `Intermediate VLEs`, dan VLE3 mewakili teori `Advanced VLEs`.
 
 ## Contoh tujuan penelitian
 
@@ -48,7 +48,19 @@ Adapun hipotesis-hipotesis penelitian adalah sebagai berikut.
 
 ## Inisiasi data
 
-Sampel data yang digunakan dalam penelitian dibuat dalam bentuk tabulasi di SPSS sebagai berikut.
+Buka SPSS, kemudian akan muncul 2 jendela: `dataset` dan `output`. Buka jendela dataset, kemudian konfigurasi sebagai berikut.
+
+1. Variable view:
+    1. Name: `VLEs`; Decimals: `0`; Values: `{1, VLE1; 2, VLE2; 3, VLE3}`; Measure: `Nominal`.
+    2. Name: `pretest`; Measure: `Scale`.
+    3. Name: `posttest`; Measure: `Scale`.
+2. Data view: masukkan data ke sel yang bersesuaian.
+
+> [Dataset](https://doi.org/10.6084/m9.figshare.24580801
+{: .prompt-info }
+
+> Dataset tersebut telah dipublikasi dan dilindungi hak cipta. Silakan digunakan sebagaimana mestinya dengan tetap melakukan sitasi apabila digunakan.
+{: .prompt-warning }
 
 ## Uji asumsi
 
@@ -60,7 +72,7 @@ Adapun [uji asumsi][id3] sebelum melakukan perhitungan Ancova adalah uji asumsi 
 
 [id4]: # "Uji asumsi outliers adalah pemeriksaan terhadap data terkait ada atua tidaknya observasi yang secara signifikan berbeda dari pola umum dalam data Anda. Outlier dapat mempengaruhi hasil analisis dan memeriksa asumsi tentang distribusi normalitas dan homogenitas varians."
 
-Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. Outliers dapat memengaruhi kehandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika ada outlier, distribusi data dapat menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. Outliers juga dapat menyebabkan ketidakhomogenan varians antar kelompok, yang dapat menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi outliers, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi outliers merupakan langkah penting dalam memastikan validitas dan kehandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat.. 
+Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. Outliers dapat memengaruhi kehandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika ada outlier, distribusi data dapat menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. Outliers juga dapat menyebabkan ketidakhomogenan varians antar kelompok, yang dapat menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi outliers, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi outliers merupakan langkah penting dalam memastikan validitas dan kehandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat. 
 
 Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -96,7 +108,7 @@ Uji asumsi yang ke-5 adalah [homogeneity of variances][id8]. Uji asumsi ini bert
 
 Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
-> Kemudian, bagaimana jika salah satu atau beberapa uji asumsi tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
+> Bagaimana jika salah satu atau beberapa uji asumsi tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
 {: .prompt-tip }
 
 ## Ancova satu jalur
