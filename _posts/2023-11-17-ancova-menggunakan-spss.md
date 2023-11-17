@@ -56,7 +56,7 @@ Buka SPSS, kemudian akan muncul 2 jendela: `dataset` dan `output`. Buka jendela 
     3. Name: `posttest`; Measure: `Scale`.
 2. Data view: masukkan data ke sel yang bersesuaian.
 
-> [Dataset](https://doi.org/10.6084/m9.figshare.24580801
+> [Dataset](https://doi.org/10.6084/m9.figshare.24580801)
 {: .prompt-info }
 
 > Dataset tersebut telah dipublikasi dan dilindungi hak cipta. Silakan digunakan sebagaimana mestinya dengan tetap melakukan sitasi apabila digunakan.
