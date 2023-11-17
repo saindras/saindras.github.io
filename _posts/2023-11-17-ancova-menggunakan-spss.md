@@ -60,6 +60,8 @@ Download dataset:
 
 [![Static Badge](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.24580801-blue)](https://doi.org/10.6084/m9.figshare.24580801)
 
+> Ubah terlebih dahulu data pada kolom VLEs mengikuti `values` pada variable view. Contoh: VLE1 ubah ke nilai `1`, VLE2 ubah ke nilai `2`, dan VLE3 ubah ke nilai `3`.
+{: .prompt-tip }
 
 > Dataset tersebut telah dipublikasi dan dilindungi hak cipta. Silakan digunakan sebagaimana mestinya dengan tetap melakukan sitasi apabila digunakan.
 {: .prompt-warning }
