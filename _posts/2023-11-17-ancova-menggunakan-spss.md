@@ -87,7 +87,7 @@ Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi un
 
 Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
-#### PROSEDUR INPUT
+#### Prosedur input
 
 1. Masuk ke menu SPSS `Analyze > General Linear Model > Univariate`. Pada jendela `Univariate`, sesuaikan isiannya sebagai berikut.
     1. Dependent Variable: `posttest`.
@@ -105,7 +105,7 @@ Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai beri
 8. Masih di jendela `Chart Builder`, pada kotak `Variables`, lakukan drag and drop variabel `ABS_SRE_1` ke `X-Axis?` yang terletak di kotak `Chart preview uses example data`, kemudian tekan tombol `OK`.
 9. Hasil akan muncul pada jendela `output` berupa gambar boxplot.
 
-#### TAMPILAN OUTPUT
+#### Tampilan output
 
 <details>
   <summary>Klik di sini untuk melihat output</summary>
@@ -114,7 +114,7 @@ Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai beri
 
 </details>
 
-#### INTERPRETASI OUTPUT
+#### Interpretasi hasil
 
 Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai *Absolute Studentized Residual* (ABS_SRE) = 2. Data ini bukanlah outlier, karena data yang mengandung outlier adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3)[^footnote]. Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi. 
 
@@ -161,6 +161,6 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 
 *(dalam proses)*
 
-## Footnote
+## Daftar pustaka
 [^footnote]: Pardoe, I. (2021). *Applied regression modeling* (3rd ed). Wiley.
 [^fn-nth-2]: The 2nd footnote source.
