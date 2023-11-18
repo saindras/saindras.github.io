@@ -54,7 +54,14 @@ Buka SPSS, kemudian akan muncul 2 jendela: `dataset` dan `output`. Buka jendela 
     1. Name: `VLEs`; Decimals: `0`; Values: `{1, VLE1; 2, VLE2; 3, VLE3}`; Measure: `Nominal`.
     2. Name: `pretest`; Measure: `Scale`.
     3. Name: `posttest`; Measure: `Scale`.
-2. Data view: masukkan data ke sel yang bersesuaian.
+2. Data view: masukkan (copy/paste) data ke sel yang bersesuaian.
+
+<details>
+  <summary>Klik di sini untuk melihat contoh tampilan pada SPSS</summary>
+  
+  ![Diagram konstelasi light](/fc7143ec-8da3-4ee2-8314-68655f475cfa/){: .light .w-75 }
+
+</details>
 
 Download dataset: 
 
@@ -65,13 +72,6 @@ Download dataset:
 
 > Dataset tersebut telah dipublikasi dan dilindungi hak cipta. Silakan digunakan sebagaimana mestinya dengan tetap melakukan sitasi apabila digunakan.
 {: .prompt-warning }
-
-<details>
-  <summary>Klik di sini untuk melihat tampilan pada SPSS</summary>
-  
-    ![Diagram konstelasi light](/fc7143ec-8da3-4ee2-8314-68655f475cfa/){: .light .w-75 }
-
-</details>
 
 ## Uji asumsi
 
