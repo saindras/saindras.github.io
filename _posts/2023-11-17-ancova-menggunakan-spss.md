@@ -66,6 +66,13 @@ Download dataset:
 > Dataset tersebut telah dipublikasi dan dilindungi hak cipta. Silakan digunakan sebagaimana mestinya dengan tetap melakukan sitasi apabila digunakan.
 {: .prompt-warning }
 
+<details>
+  <summary>Klik di sini untuk melihat tampilan pada SPSS</summary>
+  
+    ![Diagram konstelasi light](/fc7143ec-8da3-4ee2-8314-68655f475cfa/){: .light .w-75 }
+
+</details>
+
 ## Uji asumsi
 
 Adapun [uji asumsi][id3] sebelum melakukan perhitungan Ancova adalah uji asumsi ouliers, linearity, homogeneity of regression slopes, normality of residuals, dan homogeneity of variances.
