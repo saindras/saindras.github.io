@@ -116,7 +116,7 @@ Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai beri
 
 #### INTERPRETASI OUTPUT
 
-Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai *Absolute Studentized Residual* (ABS_SRE) = 2. Data ini bukanlah outlier, karena data yang mengandung outlier adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3). Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi. 
+Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai *Absolute Studentized Residual* (ABS_SRE) = 2. Data ini bukanlah outlier, karena data yang mengandung outlier adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3)[^footnote]. Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi. 
 
 ### Linearity
 
@@ -159,8 +159,8 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 
 ## Interpretasi hasil
 
-XX
+*(dalam proses)*
 
 ## Footnote
-[^footnote]: 1st footnote.
+[^footnote]: Pardoe, I. (2021). *Applied regression modeling* (3rd ed). Wiley.
 [^fn-nth-2]: The 2nd footnote source.
