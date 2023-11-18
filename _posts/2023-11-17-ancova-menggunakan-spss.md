@@ -54,7 +54,9 @@ Buka SPSS, kemudian akan muncul 2 jendela: `dataset` dan `output`. Buka jendela 
     1. Name: `VLEs`; Decimals: `0`; Values: `{1, VLE1; 2, VLE2; 3, VLE3}`; Measure: `Nominal`.
     2. Name: `pretest`; Measure: `Scale`.
     3. Name: `posttest`; Measure: `Scale`.
-2. Data view: masukkan (copy/paste) data ke sel yang bersesuaian.
+2. Data view: masukkan (copy/paste) data ke sel yang bersesuaian. Tampilan jendela `dataset` SPSS ketika sudah terisi data[^footnote]
+
+and here is another footnote[^fn-nth-2]
 
 Download dataset: 
 
@@ -67,7 +69,7 @@ Download dataset:
 {: .prompt-warning }
 
 <details>
-  <summary>Klik di sini untuk melihat contoh tampilan pada SPSS</summary>
+  <summary>Klik di sini untuk melihat contoh tampilan inisiasi data pada SPSS</summary>
   
   <img src="1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
 
@@ -86,6 +88,20 @@ Adapun [uji asumsi][id3] sebelum melakukan perhitungan Ancova adalah uji asumsi 
 Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. Outliers dapat memengaruhi kehandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika ada outlier, distribusi data dapat menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. Outliers juga dapat menyebabkan ketidakhomogenan varians antar kelompok, yang dapat menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi outliers, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi outliers merupakan langkah penting dalam memastikan validitas dan kehandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat. 
 
 Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
+
+`PROSEDUR INPUT:`
+
+1. Masuk ke menu SPSS `Analyze > General Linear Model > Univariate`, maka akan muncul jendela `Univariate`. Sesuaikan isiannya sebagai berikut.
+    1. Dependent Variable: `posttest`.
+    2. Fixed Factor(s): `VLEs`.
+    3. Covariate(s): `pretest`.
+2. Tekan tombol `Save`, maka akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
+    1. Residuals: `Studentized` (dicentang)
+3. Tekan tombol `Continue`, kemudian tekan tombol `OK`
+
+`TAMPILAN OUTPUT:`
+
+
 
 ### Linearity
 
@@ -129,3 +145,7 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 ## Interpretasi hasil
 
 XX
+
+## Footnote
+[^footnote]: The footnote source
+[^fn-nth-2]: The 2nd footnote source
