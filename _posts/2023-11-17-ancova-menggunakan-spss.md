@@ -147,5 +147,11 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 XX
 
 ## Footnote
-[^footnote]: The footnote source
+[^footnote]: 
+<details>
+  <summary>Klik di sini untuk melihat contoh tampilan inisiasi data pada SPSS</summary>
+  
+  <img src="1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
+
+</details>
 [^fn-nth-2]: The 2nd footnote source
