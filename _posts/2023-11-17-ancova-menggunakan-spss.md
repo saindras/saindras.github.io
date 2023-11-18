@@ -56,13 +56,6 @@ Buka SPSS, kemudian akan muncul 2 jendela: `dataset` dan `output`. Buka jendela 
     3. Name: `posttest`; Measure: `Scale`.
 2. Data view: masukkan (copy/paste) data ke sel yang bersesuaian.
 
-<details>
-  <summary>Klik di sini untuk melihat contoh tampilan pada SPSS</summary>
-  
-  <img src="/5b54d9a1-6423-46a5-87c4-c259359c373b/">
-
-</details>
-
 Download dataset: 
 
 [![Static Badge](https://img.shields.io/badge/DOI-10.6084%2Fm9.figshare.24580801-blue)](https://doi.org/10.6084/m9.figshare.24580801)
@@ -72,6 +65,13 @@ Download dataset:
 
 > Dataset tersebut telah dipublikasi dan dilindungi hak cipta. Silakan digunakan sebagaimana mestinya dengan tetap melakukan sitasi apabila digunakan.
 {: .prompt-warning }
+
+<details>
+  <summary>Klik di sini untuk melihat contoh tampilan pada SPSS</summary>
+  
+  <img src="https://drive.google.com/file/d/1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-/">
+
+</details>
 
 ## Uji asumsi
 
