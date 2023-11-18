@@ -38,8 +38,8 @@ Variabel-variabel penelitiannya adalah sebagai berikut.
 
 Diagram konstelasi menunjukkan hubungan antar variabel, seperti pada Gambar 1. Hubungan tersebut memandu peneliti untuk menentukan hipotesis-hipotesis penelitian dalam rangka tercapainya tujuan-tujuan penelitan. 
 
-![Diagram konstelasi light](/fc7143ec-8da3-4ee2-8314-68655f475cfa/){: .light .w-75 }
-![Diagram konstelasi dark](/5b54d9a1-6423-46a5-87c4-c259359c373b/){: .dark .w-75 }
+![Diagram konstelasi light](1Flwpoxk-rumUw5Au4j49njcV2e8sqx5E){: .light .w-75 }
+![Diagram konstelasi dark](1Fluuseg7U94KWkKTHBzwY7ZlfUpgGBT4){: .dark .w-75 }
 _Gambar 1. Diagram konstelasi antar variabel_
 
 Adapun hipotesis-hipotesis penelitian adalah sebagai berikut.
@@ -69,7 +69,7 @@ Download dataset:
 <details>
   <summary>Klik di sini untuk melihat contoh tampilan pada SPSS</summary>
   
-  <img src="https://drive.google.com/uc?export=view&id=1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
+  <img src="1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
 
 </details>
 
