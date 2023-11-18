@@ -69,13 +69,6 @@ Download dataset:
 <details>
   <summary>Klik di sini untuk melihat contoh tampilan pada SPSS</summary>
   
-  <img src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBVqOiUCFrrjYJOVJstAkrRbSEFqMRhFCmADLnMOQLY7TCztCVki-mf1kDAR76v5V0ZccxoKK7JmYkQybBwTlEAjpxtuw">
-
-</details>
-
-<details>
-  <summary>Klik di sini untuk melihat contoh tampilan pada SPSS 2</summary>
-  
   <img src="https://drive.google.com/uc?export=view&id=1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
 
 </details>
