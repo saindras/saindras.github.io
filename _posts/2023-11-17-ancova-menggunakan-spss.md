@@ -56,6 +56,8 @@ Buka SPSS, kemudian akan muncul 2 jendela: `dataset` dan `output`. Buka jendela 
     3. Name: `posttest`; Measure: `Scale`.
 2. Data view: masukkan (copy/paste) data ke sel yang bersesuaian.
 
+![Contoh Gambar](/5b54d9a1-6423-46a5-87c4-c259359c373b/)
+
 <details>
   <summary>Klik di sini untuk melihat contoh tampilan pada SPSS</summary>
   
