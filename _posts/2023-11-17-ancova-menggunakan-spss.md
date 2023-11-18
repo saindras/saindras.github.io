@@ -73,6 +73,13 @@ Download dataset:
 
 </details>
 
+<details>
+  <summary>Klik di sini untuk melihat contoh tampilan pada SPSS 2</summary>
+  
+  <img src="https://drive.google.com/uc?export=view&id=1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
+
+</details>
+
 ## Uji asumsi
 
 Adapun [uji asumsi][id3] sebelum melakukan perhitungan Ancova adalah uji asumsi ouliers, linearity, homogeneity of regression slopes, normality of residuals, dan homogeneity of variances.
