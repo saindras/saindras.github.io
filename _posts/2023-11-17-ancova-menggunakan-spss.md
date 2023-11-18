@@ -59,7 +59,7 @@ Buka SPSS, kemudian akan muncul 2 jendela: `dataset` dan `output`. Buka jendela 
 <details>
   <summary>Klik di sini untuk melihat contoh tampilan pada SPSS</summary>
   
-  ![Diagram konstelasi light](/fc7143ec-8da3-4ee2-8314-68655f475cfa/){: .light .w-75 }
+  ![Contoh Gambar](/5b54d9a1-6423-46a5-87c4-c259359c373b/)
 
 </details>
 
