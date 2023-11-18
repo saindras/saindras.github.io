@@ -54,9 +54,7 @@ Buka SPSS, kemudian akan muncul 2 jendela: `dataset` dan `output`. Buka jendela 
     1. Name: `VLEs`; Decimals: `0`; Values: `{1, VLE1; 2, VLE2; 3, VLE3}`; Measure: `Nominal`.
     2. Name: `pretest`; Measure: `Scale`.
     3. Name: `posttest`; Measure: `Scale`.
-2. Data view: masukkan (copy/paste) data ke sel yang bersesuaian. Tampilan jendela `dataset` SPSS ketika sudah terisi data[^footnote]
-
-and here is another footnote[^fn-nth-2]
+2. Data view: masukkan (copy/paste) data ke sel yang bersesuaian.
 
 Download dataset: 
 
@@ -89,19 +87,36 @@ Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi un
 
 Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
-`PROSEDUR INPUT:`
+#### PROSEDUR INPUT
 
-1. Masuk ke menu SPSS `Analyze > General Linear Model > Univariate`, maka akan muncul jendela `Univariate`. Sesuaikan isiannya sebagai berikut.
+1. Masuk ke menu SPSS `Analyze > General Linear Model > Univariate`. Pada jendela `Univariate`, sesuaikan isiannya sebagai berikut.
     1. Dependent Variable: `posttest`.
     2. Fixed Factor(s): `VLEs`.
     3. Covariate(s): `pretest`.
 2. Tekan tombol `Save`, maka akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
     1. Residuals: `Studentized` (dicentang)
-3. Tekan tombol `Continue`, kemudian tekan tombol `OK`
+3. Tekan tombol `Continue`, kemudian tekan tombol `OK`. Akan muncul jendela `output`, tapi kita abaikan dulu jendela ini, karena hasil dari prosedur di atas ada di jendela `dataset`.
+4. Kembali ke jendela `dataset`, di mana muncul kolom baru bernama `SRE_1`. Kemudian pilih menu `Transform > Compute Variable`. Pada jendela `Compute Variable`, sesuaikan isiannya sebagai berikut.
+    1. Target Variable: `ABS_SRE_1`
+    2. Numeric Expression: `ABS(SRE_1)`
+5. Tekan tombol `OK` dan kembali ke jendela `dataset`. Muncul kolom baru bernama `ABS_SRE_1`.
+6. Pilih menu `Graphs > Chart Builder`. Apabila muncul jendela dialog, klik `OK`. 
+7. Pada jendela `Chart Builder`, tab `Gallery > Choose from:`, pilih `Boxplot`. Klik 2x pada gambar `1-D Boxplot`, maka akan muncul pada kotak `Chart preview uses example data`.
+8. Masih di jendela `Chart Builder`, pada kotak `Variables`, lakukan drag and drop variabel `ABS_SRE_1` ke `X-Axis?` yang terletak di kotak `Chart preview uses example data`, kemudian tekan tombol `OK`.
+9. Hasil akan muncul pada jendela `output` berupa gambar boxplot.
 
-`TAMPILAN OUTPUT:`
+#### TAMPILAN OUTPUT
 
+<details>
+  <summary>Klik di sini untuk melihat output</summary>
+  
+  <img src="1G9ptFRtRJdqLnpjCv08YuDLCAaV7XCDG">
 
+</details>
+
+#### INTERPRETASI OUTPUT
+
+Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai *Absolute Studentized Residual* (ABS_SRE) = 2. Data ini bukanlah outlier, karena data yang mengandung outlier adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3). Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi. 
 
 ### Linearity
 
@@ -147,11 +162,5 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 XX
 
 ## Footnote
-[^footnote]: 
-<details>
-  <summary>Klik di sini untuk melihat contoh tampilan inisiasi data pada SPSS</summary>
-  
-  <img src="1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
-
-</details>
-[^fn-nth-2]: The 2nd footnote source
+[^footnote]: 1st footnote.
+[^fn-nth-2]: The 2nd footnote source.
