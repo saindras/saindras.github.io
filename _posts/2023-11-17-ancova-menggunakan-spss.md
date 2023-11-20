@@ -154,9 +154,9 @@ Uji asumsi yang ke-2 adalah [linearity][id5]. Uji asumsi linearity bertujuan unt
 
 #### Interpretasi hasil
 
-Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *p-value* sebesar 0,00. Jika nilai koefisien tidak nol dan *p-value* kurang dari 0,05, maka terdapat hubungan linier antara variabel kovariat variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
+Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *p-value* sebesar 0,00. Jika nilai koefisien tidak nol dan *p-value* kurang dari 0,05, maka terdapat hubungan linier antara kovariat dan variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
 
-Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis lurus linear di antara data yang tersebar acak (tidak membentuk pola)[^fn-nth-3] yang menandakan hubungan antara `pretest` dan `posttest` adalah linear.
+Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar acak. Data pada *scatter plot* yang telihat acak (tidak membentuk pola tertentu) menandakan hubungan antara kovariat dan variabel terikat adalah linear[^fn-nth-3].
 
 ### Homogeneity of regression slopes
 
