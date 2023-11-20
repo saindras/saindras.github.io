@@ -114,7 +114,7 @@ Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi un
 
 #### Interpretasi hasil
 
-Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai *Absolute Studentized Residual* (ABS_SRE) = 2. Data ini bukanlah outlier, karena data yang mengandung outlier adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3)[^footnote]. Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi. 
+Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai *Absolute Studentized Residual* (ABS_SRE) = <mark>2</mark>. Data ini bukanlah outlier, karena data yang mengandung outlier adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3)[^footnote]. Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi. 
 
 ### Linearity
 
@@ -154,7 +154,7 @@ Uji asumsi yang ke-2 adalah [linearity][id5]. Uji asumsi linearity bertujuan unt
 
 #### Interpretasi hasil
 
-Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *Sig.* sebesar 0,00. Jika nilai koefisien tidak nol dan *Sig.* kurang dari 0,05, maka terdapat hubungan linier antara kovariat dan variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
+Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = <mark>0,612</mark> yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar <mark>61,2%</mark>. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar <mark>0,722</mark> dengan *Sig.* sebesar <mark>0,00</mark>. Jika nilai koefisien tidak nol dan *Sig.* kurang dari 0,05, maka terdapat hubungan linier antara kovariat dan variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
 
 Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar acak. Data pada *scatter plot* yang telihat acak (tidak membentuk pola tertentu) menandakan hubungan antara kovariat dan variabel terikat adalah linear[^fn-nth-3].
 
@@ -212,7 +212,7 @@ Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi 
 
 #### Interpretasi hasil
 
-Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai <mark>*F* = 0,028</mark> dan nilai <mark>*Sig.* = 0,973</mark> pada baris `VLEs*pretest`. Jika nilai *Sig.* lebih besar dari 0,05, maka tidak ada perbedaan kemiringan secara signifikan di antara kelompok perlakuan. Oleh karena itu, asumsi ini terpenuhi. Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis linear antar variabel cenderung paralel yang menunjukkan tidak ada perbedaan kemiringan antar kelompok dalam variabel bebas.
+Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai *F* = <mark>0,028</mark> dan nilai *Sig.* = <mark>0,973</mark> pada baris `VLEs*pretest`. Jika nilai *Sig.* lebih besar dari 0,05, maka tidak ada perbedaan kemiringan secara signifikan di antara kelompok perlakuan. Oleh karena itu, asumsi ini terpenuhi. Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis linear antar variabel cenderung paralel yang menunjukkan tidak ada perbedaan kemiringan antar kelompok dalam variabel bebas.
 
 ### Normality of residuals
 
