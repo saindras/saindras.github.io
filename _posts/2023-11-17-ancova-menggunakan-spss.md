@@ -178,6 +178,14 @@ Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi 
 4. Klik tombol `Save`, akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
     1. Residuals: `Studentized` (hilangkan centang). Jika secara default tidak dicentang, maka abaikan langkah ini.
 5. Klik tombol `OK`, akan muncul hasil berupa tabel `Tests of Between-Subjects Effects` pada jendela `output`.
+6. Untuk menghasilkan grafik linearitas antar variabel, masuk ke menu `Graphs > Legacy Dialogs > Scatter/Dot`.
+7. Pilih `Simple Scatter`, kemudian klik tombol `Define`. Pada jendela `Simple Scatterplot`, sesuaikan isiannya sebagai berikut.
+    1. Y Axis: `postest`.
+    2. X Axis: `pretest`.
+    3. Set Markers by: `VLEs`.
+8. Klik tombol `OK`, akan muncul hasil berupa *scatter plot* pada jendela `output`.
+9. Untuk memunculkan garis linear pada masing-masing kelompok variabel bebas di gambar *scatter plot*, pada jendela `output`, klik 2 kali di gambar *scatter plot* untuk memunculkan jendela `Chart Editor` kemudian klik tombol `Add Fit Line at Subgroups` yang terletak pada menu bar di atas gambar, akan muncul jendela `Properties`.
+10. Pada jendela `Properties`, tab `Fit Line`, kotak `Fit Method`, pilih `Linear`. Kemudian klik tombol `Close`, dan tutup jendela `Chart Editor`. Akan muncul gambar *scatter plot* berisikan garis linear dan nilai *R<sup>2</sup>* untuk masing-masing kelompok pada variabel bebas.
 
 <details>
   <summary>Klik di sini untuk melihat detail langkah nomor 2.</summary>
@@ -189,15 +197,22 @@ Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi 
 #### Tampilan output
 
 <details>
-  <summary>Klik di sini untuk melihat output.</summary>
+  <summary>Klik di sini untuk melihat output tabel.</summary>
   
-  <img src="1I01XHlL5c4SECdvbSm5z_kM_So2_OL">
+  <img src="1I01XHlL5c4SECdvbSm5z_kM_So2_OL5k">
+
+</details>
+
+<details>
+  <summary>Klik di sini untuk melihat output <i>scatter plot</i>.</summary>
+  
+  <img src="1I3pk56-p7HXbfyyeZb7cYMamh8Rj8mk8">
 
 </details>
 
 #### Interpretasi hasil
 
-Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai *F* = 0,028 dan nilai *Sig.* = 0,973 pada baris `VLEs*pretest`. Jika nilai *Sig.* lebih besar dari 0,05, maka tidak ada perbedaan kemiringan secara signifikan di antara kelompok perlakuan. Oleh karena itu, asumsi ini terpenuhi. 
+Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai *F* = 0,028 dan nilai *Sig.* = 0,973 pada baris `VLEs*pretest`. Jika nilai *Sig.* lebih besar dari 0,05, maka tidak ada perbedaan kemiringan secara signifikan di antara kelompok perlakuan. Oleh karena itu, asumsi ini terpenuhi. Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis linear antar variabel cenderung paralel yang menunjukkan tidak ada perbedaan kemiringan antar kelompok dalam variabel bebas.
 
 ### Normality of residuals
 
