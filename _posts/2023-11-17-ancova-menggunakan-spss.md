@@ -193,7 +193,8 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 
 *(dalam proses)*
 
-## Daftar pustaka
-[^footnote]: Pardoe, I. (2021). *Applied regression modeling* (3rd ed). Wiley.
-[^fn-nth-2]: Klopper, J. (2022). *Analysis of covariance using Python*. YouTube. <https://www.youtube.com/watch?v=FhZB1oGVrYc>.
+## Referensi
+
 [^fn-nth-3]: Field, A. (2017). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). SAGE Publications.
+[^fn-nth-2]: Klopper, J. (2022). *Analysis of covariance using Python*. YouTube. <https://www.youtube.com/watch?v=FhZB1oGVrYc>.
+[^footnote]: Pardoe, I. (2021). *Applied regression modeling* (3rd ed). Wiley.
