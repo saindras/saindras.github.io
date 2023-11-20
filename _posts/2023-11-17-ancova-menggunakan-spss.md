@@ -154,9 +154,9 @@ Uji asumsi yang ke-2 adalah [linearity][id5]. Uji asumsi linearity bertujuan unt
 
 #### Interpretasi hasil
 
-Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *p-value* sebesar 0,00. Jika nilai koefisien tidak nol dan *p-value* kurang dari 0,05, maka terdapat hubungan linier antara variabel kovariat `pretest` dan variabel terikat `postest`. Oleh karena itu, uji asumsi linearity terpenuhi.
+Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *p-value* sebesar 0,00. Jika nilai koefisien tidak nol dan *p-value* kurang dari 0,05, maka terdapat hubungan linier antara variabel kovariat variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
 
-Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis lurus linear di antara data yang tersebar acak (tidak membentuk pola) yang menandakan hubungan antara `pretest` dan `posttest` adalah linear.
+Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis lurus linear di antara data yang tersebar acak (tidak membentuk pola)[^fn-nth-3] yang menandakan hubungan antara `pretest` dan `posttest` adalah linear.
 
 ### Homogeneity of regression slopes
 
@@ -195,4 +195,5 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 
 ## Daftar pustaka
 [^footnote]: Pardoe, I. (2021). *Applied regression modeling* (3rd ed). Wiley.
-[^fn-nth-2]: The 2nd footnote source.
+[^fn-nth-2]: Klopper, J. (2022). *Analysis of covariance using Python*. YouTube. <https://www.youtube.com/watch?v=FhZB1oGVrYc>.
+[^fn-nth-3]: Field, A. (2017). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). SAGE Publications.
