@@ -91,16 +91,16 @@ Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi un
     1. Dependent Variable: `posttest`.
     2. Fixed Factor(s): `VLEs`.
     3. Covariate(s): `pretest`.
-2. Tekan tombol `Save`, maka akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
+2. Klik tombol `Save`, maka akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
     1. Residuals: `Studentized` (dicentang)
-3. Tekan tombol `Continue`, kemudian tekan tombol `OK`. Akan muncul jendela `output`, tapi kita abaikan dulu jendela ini, karena hasil dari prosedur di atas ada di jendela `dataset`.
+3. Klik tombol `Continue`, kemudian klik tombol `OK`. Akan muncul jendela `output`, tapi kita abaikan dulu jendela ini, karena hasil dari prosedur di atas ada di jendela `dataset`.
 4. Kembali ke jendela `dataset`, di mana muncul kolom baru bernama `SRE_1`. Kemudian pilih menu `Transform > Compute Variable`. Pada jendela `Compute Variable`, sesuaikan isiannya sebagai berikut.
     1. Target Variable: `ABS_SRE_1`
     2. Numeric Expression: `ABS(SRE_1)`
-5. Tekan tombol `OK` dan kembali ke jendela `dataset`. Muncul kolom baru bernama `ABS_SRE_1`.
+5. Klik tombol `OK` dan kembali ke jendela `dataset`. Muncul kolom baru bernama `ABS_SRE_1`.
 6. Pilih menu `Graphs > Chart Builder`. Apabila muncul jendela dialog, klik `OK`. 
 7. Pada jendela `Chart Builder`, tab `Gallery > Choose from:`, pilih `Boxplot`. Klik 2x pada gambar `1-D Boxplot`, maka akan muncul pada kotak `Chart preview uses example data`.
-8. Masih di jendela `Chart Builder`, pada kotak `Variables`, lakukan drag and drop variabel `ABS_SRE_1` ke `X-Axis?` yang terletak di kotak `Chart preview uses example data`, kemudian tekan tombol `OK`.
+8. Masih di jendela `Chart Builder`, pada kotak `Variables`, lakukan drag and drop variabel `ABS_SRE_1` ke `X-Axis?` yang terletak di kotak `Chart preview uses example data`, kemudian Klik tombol `OK`.
 9. Hasil akan muncul pada jendela `output` berupa gambar boxplot.
 
 #### Tampilan output
@@ -127,14 +127,14 @@ Uji asumsi yang ke-2 adalah [linearity][id5]. Uji asumsi linearity bertujuan unt
 1. Masuk ke menu SPSS `Analyze > Regression > Linear`. Pada jendela `Linear Regression`, sesuaikan isiannya sebagai berikut.
     1. Dependent: `postest`.
     2. Independent(s): `pretest`.
-2. Tekan tombol `OK`. Akan muncul hasilnya pada jendela `output`. Fokus pada tabel `Model Summary` dan `Coefficients`.
+2. Klik tombol `OK`. Akan muncul hasilnya pada jendela `output`. Fokus pada tabel `Model Summary` dan `Coefficients`.
 3. Untuk menghasilkan grafik linearitas antar variabel, masuk ke menu `Graphs > Legacy Dialogs > Scatter/Dot`.
-4. Pilih `Simple Scatter`, kemudian tekan tombol `Define`. Pada jendela `Simple Scatterplot`, sesuaikan isiannya sebagai berikut.
+4. Pilih `Simple Scatter`, kemudian klik tombol `Define`. Pada jendela `Simple Scatterplot`, sesuaikan isiannya sebagai berikut.
     1. Y Axis: `postest`.
     2. X Axis: `pretest`.
-5. Tekan tombol `OK`, akan muncul hasil berupa *scatter plot* pada jendela `output`.
-6. Untuk memunculkan garis linear di gambar *scatter plot*, pada jendela `output`, klik 2 kali di gambar *scatter plot* untuk memunculkan jendela `Chart Editor` kemudian tekan tombol `Add Fit Line at Total` yang terletak pada menu bar di atas gambar, akan muncul jendela `Properties`.
-7. Pada jendela `Properties`, tab `Fit Line`, kotak `Fit Method`, pilih `Linear`. Kemudian tekan tombol `Close`, dan tutup jendela `Chart Editor`. Akan muncul gambar *scatter plot* berisikan garis linear dan nilai *R<sup>2</sup>*-nya.
+5. Klik tombol `OK`, akan muncul hasil berupa *scatter plot* pada jendela `output`.
+6. Untuk memunculkan garis linear di gambar *scatter plot*, pada jendela `output`, klik 2 kali di gambar *scatter plot* untuk memunculkan jendela `Chart Editor` kemudian klik tombol `Add Fit Line at Total` yang terletak pada menu bar di atas gambar, akan muncul jendela `Properties`.
+7. Pada jendela `Properties`, tab `Fit Line`, kotak `Fit Method`, pilih `Linear`. Kemudian klik tombol `Close`, dan tutup jendela `Chart Editor`. Akan muncul gambar *scatter plot* berisikan garis linear dan nilai *R<sup>2</sup>*-nya.
 
 #### Tampilan output
 
@@ -154,7 +154,7 @@ Uji asumsi yang ke-2 adalah [linearity][id5]. Uji asumsi linearity bertujuan unt
 
 #### Interpretasi hasil
 
-Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *p-value* sebesar 0,00. Jika nilai koefisien tidak nol dan *p-value* kurang dari 0,05, maka terdapat hubungan linier antara kovariat dan variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
+Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *Sig.* sebesar 0,00. Jika nilai koefisien tidak nol dan *Sig.* kurang dari 0,05, maka terdapat hubungan linier antara kovariat dan variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
 
 Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar acak. Data pada *scatter plot* yang telihat acak (tidak membentuk pola tertentu) menandakan hubungan antara kovariat dan variabel terikat adalah linear[^fn-nth-3].
 
@@ -170,13 +170,14 @@ Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi 
     1. Dependent Variable: `posttest`.
     2. Fixed Factor(s): `VLEs`.
     3. Covariate(s): `pretest`.
-2. Tekan tombol `Model`, sesuaikan isiannya sebagai berikut.
+2. Klik tombol `Model`, sesuaikan isiannya sebagai berikut.
     1. Specify Model: `build terms`.
     2. Factors & Covariates: `VLEs`, `pretest`.
     3. Model: `VLEs`, `pretest`, `pretest*VLEs`.
-3. Tekan tombol `Continue`.
-4. Tekan tombol `Save`, maka akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
+3. Klik tombol `Continue`.
+4. Klik tombol `Save`, akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
     1. Residuals: `Studentized` (hilangkan centang). Jika secara default tidak dicentang, maka abaikan langkah ini.
+5. Klik tombol `OK`, akan muncul hasil berupa tabel `Tests of Between-Subjects Effects` pada jendela `output`.
 
 <details>
   <summary>Klik di sini untuk melihat detail langkah nomor 2.</summary>
@@ -187,7 +188,16 @@ Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi 
 
 #### Tampilan output
 
+<details>
+  <summary>Klik di sini untuk melihat output.</summary>
+  
+  <img src="1I01XHlL5c4SECdvbSm5z_kM_So2_OL">
+
+</details>
+
 #### Interpretasi hasil
+
+Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai *F* = 0,028 dan nilai *Sig.* = 0,973 pada baris `VLEs*pretest`. Jika nilai *Sig.* lebih besar dari 0,05, maka tidak ada perbedaan kemiringan secara signifikan di antara kelompok perlakuan. Oleh karena itu, asumsi ini terpenuhi. 
 
 ### Normality of residuals
 
