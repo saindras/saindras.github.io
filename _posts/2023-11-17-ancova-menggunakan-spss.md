@@ -67,7 +67,7 @@ Download dataset:
 {: .prompt-warning }
 
 <details>
-  <summary>Klik di sini untuk melihat contoh tampilan inisiasi data pada SPSS</summary>
+  <summary>Klik di sini untuk melihat contoh tampilan inisiasi data pada SPSS.</summary>
   
   <img src="1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
 
@@ -106,7 +106,7 @@ Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi un
 #### Tampilan output
 
 <details>
-  <summary>Klik di sini untuk melihat output</summary>
+  <summary>Klik di sini untuk melihat output.</summary>
   
   <img src="1G9ptFRtRJdqLnpjCv08YuDLCAaV7XCDG">
 
@@ -139,14 +139,14 @@ Uji asumsi yang ke-2 adalah [linearity][id5]. Uji asumsi linearity bertujuan unt
 #### Tampilan output
 
 <details>
-  <summary>Klik di sini untuk melihat output tabel</summary>
+  <summary>Klik di sini untuk melihat output tabel.</summary>
   
   <img src="1Gh_Ghq0_CVMMm0X6632ltOsoL7tk9qC7">
 
 </details>
 
 <details>
-  <summary>Klik di sini untuk melihat output <i>scatter plot</i></summary>
+  <summary>Klik di sini untuk melihat output <i>scatter plot</i>.</summary>
   
   <img src="1Gm3p-WcfLYXZNL16eIGyzyNsUdWSb70v">
 
@@ -162,9 +162,32 @@ Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar 
 
 [id6]: ## "Uji asumsi homogeneity of regression slopes pada Ancova digunakan untuk memeriksa apakah hubungan antara variabel kovariat dan variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan."
 
-Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi ini bertujuan untuk untuk memastikan bahwa pengaruh variabel kovariat terhadap variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan yang berbeda. Jika hubungan tersebut tidak seragam, ini dapat menunjukkan bahwa efek kovariat bervariasi di antara kelompok perlakuan, yang dapat mengancam validitas analisis Ancova. Oleh karena itu, uji ini membantu memastikan bahwa asumsi homogenitas regresi terpenuhi sebelum melanjutkan analisis Ancova.
+Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi ini bertujuan untuk untuk memastikan bahwa pengaruh variabel kovariat terhadap variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan yang berbeda. Jika hubungan tersebut tidak seragam, ini dapat menunjukkan bahwa efek kovariat bervariasi di antara kelompok perlakuan, yang dapat mengancam validitas analisis Ancova. Oleh karena itu, uji ini membantu memastikan bahwa asumsi homogenitas regresi terpenuhi sebelum melanjutkan analisis Ancova. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
-Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
+#### Prosedur input
+
+1. Masuk ke menu SPSS `Analyze > General Linear Model > Univariate`. Pada jendela `Univariate`, sesuaikan isiannya sebagai berikut.
+    1. Dependent Variable: `posttest`.
+    2. Fixed Factor(s): `VLEs`.
+    3. Covariate(s): `pretest`.
+2. Tekan tombol `Model`, sesuaikan isiannya sebagai berikut.
+    1. Specify Model: `build terms`.
+    2. Factors & Covariates: `VLEs`, `pretest`.
+    3. Model: `VLEs`, `pretest`, `pretest*VLEs`.
+3. Tekan tombol `Continue`.
+4. Tekan tombol `Save`, maka akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
+    1. Residuals: `Studentized` (hilangkan centang). Jika secara default tidak dicentang, maka abaikan langkah ini.
+
+<details>
+  <summary>Klik di sini untuk melihat detail langkah nomor 2.</summary>
+  
+  <img src="1HtEcVKyJOoc1l-e0r0lSCutEXpi8eEEi">
+
+</details>
+
+#### Tampilan output
+
+#### Interpretasi hasil
 
 ### Normality of residuals
 
