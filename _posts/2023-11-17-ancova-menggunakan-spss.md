@@ -212,7 +212,7 @@ Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi 
 
 #### Interpretasi hasil
 
-Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai *F* = 0,028 dan nilai *Sig.* = 0,973 pada baris `VLEs*pretest`. Jika nilai *Sig.* lebih besar dari 0,05, maka tidak ada perbedaan kemiringan secara signifikan di antara kelompok perlakuan. Oleh karena itu, asumsi ini terpenuhi. Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis linear antar variabel cenderung paralel yang menunjukkan tidak ada perbedaan kemiringan antar kelompok dalam variabel bebas.
+Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai <mark>*F* = 0,028</mark> dan nilai <mark>*Sig.* = 0,973</mark> pada baris `VLEs*pretest`. Jika nilai *Sig.* lebih besar dari 0,05, maka tidak ada perbedaan kemiringan secara signifikan di antara kelompok perlakuan. Oleh karena itu, asumsi ini terpenuhi. Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis linear antar variabel cenderung paralel yang menunjukkan tidak ada perbedaan kemiringan antar kelompok dalam variabel bebas.
 
 ### Normality of residuals
 
