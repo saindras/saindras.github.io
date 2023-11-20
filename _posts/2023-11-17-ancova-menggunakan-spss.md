@@ -128,19 +128,35 @@ Uji asumsi yang ke-2 adalah [linearity][id5]. Uji asumsi linearity bertujuan unt
     1. Dependent: `postest`.
     2. Independent(s): `pretest`.
 2. Tekan tombol `OK`. Akan muncul hasilnya pada jendela `output`. Fokus pada tabel `Model Summary` dan `Coefficients`.
+3. Untuk menghasilkan grafik linearitas antar variabel, masuk ke menu `Graphs > Legacy Dialogs > Scatter/Dot`.
+4. Pilih `Simple Scatter`, kemudian tekan tombol `Define`. Pada jendela `Simple Scatterplot`, sesuaikan isiannya sebagai berikut.
+    1. Y Axis: `postest`.
+    2. X Axis: `pretest`.
+5. Tekan tombol `OK`, akan muncul hasil berupa *scatter plot* pada jendela `output`.
+6. Untuk memunculkan garis linear di gambar *scatter plot*, pada jendela `output`, klik 2 kali di gambar *scatter plot* untuk memunculkan jendela `Chart Editor` kemudian tekan tombol `Add Fit Line at Total` yang terletak pada menu bar di atas gambar, akan muncul jendela `Properties`.
+7. Pada jendela `Properties`, tab `Fit Line`, kotak `Fit Method`, pilih `Linear`. Kemudian tekan tombol `Close`, dan tutup jendela `Chart Editor`. Akan muncul gambar *scatter plot* berisikan garis linear dan nilai *R<sup>2</sup>*-nya.
 
 #### Tampilan output
 
 <details>
-  <summary>Klik di sini untuk melihat output</summary>
+  <summary>Klik di sini untuk melihat output tabel</summary>
   
   <img src="1Gh_Ghq0_CVMMm0X6632ltOsoL7tk9qC7">
+
+</details>
+
+<details>
+  <summary>Klik di sini untuk melihat output <i>scatter plot</i></summary>
+  
+  <img src="1Gm3p-WcfLYXZNL16eIGyzyNsUdWSb70v">
 
 </details>
 
 #### Interpretasi hasil
 
 Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *p-value* sebesar 0,00. Jika nilai koefisien tidak nol dan *p-value* kurang dari 0,05, maka terdapat hubungan linier antara variabel kovariat `pretest` dan variabel terikat `postest`. Oleh karena itu, uji asumsi linearity terpenuhi.
+
+Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat garis lurus linear di antara data yang tersebar acak (tidak membentuk pola) yang menandakan hubungan antara `pretest` dan `posttest` adalah linear.
 
 ### Homogeneity of regression slopes
 
