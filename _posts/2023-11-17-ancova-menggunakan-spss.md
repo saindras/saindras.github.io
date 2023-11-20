@@ -91,10 +91,10 @@ Uji asumsi yang pertama adalah [outliers][id4]. Uji asumsi outliers berfungsi un
     1. Dependent Variable: `posttest`.
     2. Fixed Factor(s): `VLEs`.
     3. Covariate(s): `pretest`.
-2. Klik tombol `Save`, maka akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
+2. Klik tombol `Save`, akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
     1. Residuals: `Studentized` (dicentang)
-3. Klik tombol `Continue`, kemudian klik tombol `OK`. Akan muncul jendela `output`, tapi kita abaikan dulu jendela ini, karena hasil dari prosedur di atas ada di jendela `dataset`.
-4. Kembali ke jendela `dataset`, di mana muncul kolom baru bernama `SRE_1`. Kemudian pilih menu `Transform > Compute Variable`. Pada jendela `Compute Variable`, sesuaikan isiannya sebagai berikut.
+3. Klik tombol `Continue`, kemudian klik tombol `OK`. Hasilnya akan muncul pada jendela `output` dan `dataset`. Abaikan dulu jendela `output` dan fokus pada jendela `dataset`.
+4. Pada jendela `dataset`, muncul kolom baru bernama `SRE_1`. Kemudian pilih menu `Transform > Compute Variable`. Pada jendela `Compute Variable`, sesuaikan isiannya sebagai berikut.
     1. Target Variable: `ABS_SRE_1`
     2. Numeric Expression: `ABS(SRE_1)`
 5. Klik tombol `OK` dan kembali ke jendela `dataset`. Muncul kolom baru bernama `ABS_SRE_1`.
@@ -170,7 +170,7 @@ Uji asumsi yang ke-3 adalah [homogeneity of regression slopes][id6]. Uji asumsi 
     1. Dependent Variable: `posttest`.
     2. Fixed Factor(s): `VLEs`.
     3. Covariate(s): `pretest`.
-2. Klik tombol `Model`, sesuaikan isiannya sebagai berikut.
+2. Klik tombol `Model`, akan muncul jendela `Univariate: Model`, sesuaikan isiannya sebagai berikut.
     1. Specify Model: `build terms`.
     2. Factors & Covariates: `VLEs`, `pretest`.
     3. Model: `VLEs`, `pretest`, `pretest*VLEs`.
