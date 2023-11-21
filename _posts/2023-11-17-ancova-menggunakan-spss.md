@@ -120,6 +120,9 @@ Uji asumsi yang pertama adalah [*outliers*][id4]. Uji asumsi outliers berfungsi 
 
 Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai Absolute Studentized Residual (ABS_SRE) = 2. Data ini bukanlah outlier, karena data yang mengandung outlier adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3)[^footnote]. Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi.
 
+> Bagaimana jika terdapat *outlier*? Kita akan bahas pada tulisan selanjutnya.
+{: .prompt-tip }
+
 ### *Linearity*
 
 [id5]: ## "Uji asumsi linearitas pada Ancova adalah langkah evaluasi untuk memastikan bahwa hubungan antara variabel kovariat dan variabel terikat bersifat linier."
@@ -131,14 +134,15 @@ Uji asumsi yang ke-2 adalah [*linearity*][id5]. Uji asumsi linearity bertujuan u
 1. Masuk ke menu SPSS `Analyze > Regression > Linear`. Pada jendela `Linear Regression`, sesuaikan isiannya sebagai berikut.
    1. Dependent: `postest`.
    2. Independent(s): `pretest`.
-2. Klik tombol `OK`. Akan muncul hasilnya pada jendela `output`. Fokus pada tabel `Model Summary` dan `Coefficients`.
-3. Untuk menghasilkan grafik linearitas antar variabel, masuk ke menu `Graphs > Legacy Dialogs > Scatter/Dot`.
-4. Pilih `Simple Scatter`, kemudian klik tombol `Define`. Pada jendela `Simple Scatterplot`, sesuaikan isiannya sebagai berikut.
+2. Cek pada bagian model regresi dengan menekan tombol `Model`. Pastikan `Specify Model` adalah `Full factorial`. Klik tombol `Continue`.
+3. Klik tombol `OK`. Akan muncul hasilnya pada jendela `output`. Fokus pada tabel `Model Summary` dan `Coefficients`.
+4. Untuk menghasilkan grafik linearitas antar variabel, masuk ke menu `Graphs > Legacy Dialogs > Scatter/Dot`.
+5. Pilih `Simple Scatter`, kemudian klik tombol `Define`. Pada jendela `Simple Scatterplot`, sesuaikan isiannya sebagai berikut.
    1. Y Axis: `postest`.
    2. X Axis: `pretest`.
-5. Klik tombol `OK`, akan muncul hasil berupa *scatter plot* pada jendela `output`.
-6. Untuk memunculkan garis linear di gambar *scatter plot*, pada jendela `output`, klik 2 kali di gambar *scatter plot* untuk memunculkan jendela `Chart Editor` kemudian klik tombol `Add Fit Line at Total` yang terletak pada menu bar di atas gambar, akan muncul jendela `Properties`.
-7. Pada jendela `Properties`, tab `Fit Line`, kotak `Fit Method`, pilih `Linear`. Kemudian klik tombol `Close`, dan tutup jendela `Chart Editor`. Akan muncul gambar *scatter plot* berisikan garis linear dan nilai *R<sup>2</sup>*-nya.
+6. Klik tombol `OK`, akan muncul hasil berupa *scatter plot* pada jendela `output`.
+7. Untuk memunculkan garis linear di gambar *scatter plot*, pada jendela `output`, klik 2 kali di gambar *scatter plot* untuk memunculkan jendela `Chart Editor` kemudian klik tombol `Add Fit Line at Total` yang terletak pada menu bar di atas gambar, akan muncul jendela `Properties`.
+8. Pada jendela `Properties`, tab `Fit Line`, kotak `Fit Method`, pilih `Linear`. Kemudian klik tombol `Close`, dan tutup jendela `Chart Editor`. Akan muncul gambar *scatter plot* berisikan garis linear dan nilai *R<sup>2</sup>*-nya.
 
 #### Tampilan output
 
@@ -161,6 +165,9 @@ Uji asumsi yang ke-2 adalah [*linearity*][id5]. Uji asumsi linearity bertujuan u
 Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *Sig.* sebesar 0,00. Jika nilai koefisien tidak nol dan *Sig.* kurang dari 0,05, maka terdapat hubungan linier antara kovariat dan variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
 
 Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar acak. Data pada *scatter plot* yang telihat acak (tidak membentuk pola tertentu) menandakan hubungan antara kovariat dan variabel terikat adalah linear[^fn-nth-3].
+
+> Bagaimana jika data tidak linier atau uji asumsi *linearity* tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
+{: .prompt-tip }
 
 ### *Homogeneity of regression slopes*
 
@@ -220,25 +227,64 @@ Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai F = 0,028 dan nil
 
 Jika asumsi homogenitas lereng regresi terpenuhi, maka F-statistik yang dihasilkan dapat diasumsikan memiliki distribusi F yang sesuai[^fn-nth-3]. Sebaliknya, jika asumsinya tidak terpenuhi, maka artinya statistik F yang dihasilkan dievaluasi berdasarkan distribusi yang berbeda dari distribusi sebenarnya. Akibatnya, tingkat kesalahan tes Tipe I meningkat dan kemampuan untuk mendeteksi efek tidak maksimal. Hal ini terutama berlaku ketika ukuran kelompok tidak sama dan ketika kemiringan regresi standar berbeda lebih dari 0,4.
 
-> Jika asumsi *Homogeneity of regression slopes* tidak terpenuhi, maka dapat memodelkan variasi ini secara eksplisit menggunakan model linier bertingkat *(multilevel linear models)*[^fn-nth-3]
+> Jika asumsi *Homogeneity of regression slopes* tidak terpenuhi, maka dapat memodelkan variasi ini secara eksplisit menggunakan model linier bertingkat *(multilevel linear models)*[^fn-nth-3]. Kita akan bahas pada tulisan selanjutnya.
 {: .prompt-info }
 
 ### Normality of residuals
 
 [id7]: ## "Uji normality of residuals pada Ancova adalah pemeriksaan terkait sejauh mana residu dari model regresi memiliki distribusi normal. Hal ini penting karena analisis inferensial bergantung pada asumsi distribusi normal pada residu untuk hasil yang valid."
 
-Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bertujuan untuk memeriksa sejauh mana residu dari model regresi memiliki distribusi normal. Residu yang memiliki distribusi normal menunjukkan bahwa asumsi normalitas terpenuhi, sehingga hasil analisis Ancova dapat diandalkan. Normality of residuals menjadi penting karena analisis inferensial, seperti uji hipotesis dan interval kepercayaan, membutuhkan asumsi distribusi normal pada residu. Jika distribusi residu tidak normal, hal ini dapat memengaruhi validitas hasil dan interpretasi analisis Ancova. Oleh karena itu, uji normality of residuals membantu memastikan bahwa asumsi distribusi normal pada residu terpenuhi untuk hasil analisis yang lebih akurat.
+Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bertujuan untuk memeriksa sejauh mana residu dari model regresi memiliki distribusi normal. Residu yang memiliki distribusi normal menunjukkan bahwa asumsi normalitas terpenuhi, sehingga hasil analisis Ancova dapat diandalkan. Normality of residuals menjadi penting karena analisis inferensial, seperti uji hipotesis dan interval kepercayaan, membutuhkan asumsi distribusi normal pada residu. Jika distribusi residu tidak normal, hal ini dapat memengaruhi validitas hasil dan interpretasi analisis Ancova. Oleh karena itu, uji normality of residuals membantu memastikan bahwa asumsi distribusi normal pada residu terpenuhi untuk hasil analisis yang lebih akurat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
-Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
+#### Prosedur input
+
+1. Masuk ke menu SPSS `Analyze > General Linear Model > Univariate`. Pada jendela `Univariate`, sesuaikan isiannya sebagai berikut.
+   1. Dependent Variable: `posttest`.
+   2. Fixed Factor(s): `VLEs`.
+   3. Covariate(s): `pretest`.
+2. Cek kembali pada bagian `Model`. Pastikan `Specify Model` adalah `Full factorial`.
+3. Klik tombol `Save`, akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
+   1. Residuals: `Unstandardized` (dicentang). Pastikan jenis residu lainnya pada box `Residuals` tidak tercentang.
+4. Klik tombol `Continue`, kemudian klik tombol `OK`. Hasilnya akan muncul pada jendela `output` dan `dataset`. Abaikan dulu jendela `output` dan fokus pada jendela `dataset`.
+5. Pada jendela `dataset`, muncul kolom baru bernama `RES_1`. Masuk ke menu `Analyze > Descriptive Statistics > Explore`.
+6. Pada jendela `Explore`, sesuaikan isiannya sebagai berikut.
+      1. Dependent list: `Residual for posttest [RES_1]`.
+7. Klik tombol `Plots`, akan muncul jendela `Explore: Plots`, sesuaikan isiannya sebagai berikut.
+      1. Descriptive: `Steam-and-leaf` (hilangkan centang)
+      2. Descriptive: `Histogram` (centang) 
+      3. Centang pada bagian `Normality plots with tests`
+8. Klik tombol `Continue`, kemudian klik tombol `OK`. Hasil akan muncul pada jendela `output` berupa gambar hostogram dan tabel `Tests of Normality`.
+9. Pada jendela `output`, klik 2x pada gambar histogram, akan muncul jendela `Chart Editor`.
+10. Pada jendela `Chart Editor` klik menu `Show Distribution Curve`, akan muncul jendela `Properties`. Pastikan pilihan pada kotak `Curves` adalah `Normal`. Setelah itu tekan tombol `Close` dan tutup jendela `Chart Editor`. Kita akan melihat gambar histogram pada jendela `output` dilengkapi dengan garis kurva normal.
+
+#### Tampilan output
+
+<details>
+  <summary>Klik di sini untuk melihat output tabel.</summary>
+  
+  <img src="1IaZkRGjL8b1ykZbMDajgHmpXtwaLS2XH">
+
+</details>
+
+<details>
+  <summary>Klik di sini untuk melihat output histogram dengan garis kurva normal.</summary>
+  
+  <img src="1IcQFrtHX13mbEATFzvcLqFuPzzOMZzU9">
+
+</details>
+
+#### Interpretasi hasil
+
+Pada tabel `Tests of Normality`, terlihat nilai *Kolmogorov-Smirnov Statistic* = 0,077 dengan nilai *Sig.* = 0.200. Terlihat juga nilai *Shapiro-Wilk Statistic* = 0,990 dengan nilai *Sig.* = 0.901. Nilai *Sig.* lebih besar dari 0,05. Hal ini menandakan data *unstandardized* residual berdistribusi normal. Oleh karena itu, uji asumsi *normality of residuals* terpenuhi.
+
+> Bagaimana jika data tidak normal atau uji asumsi *normality of residuals* tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
+{: .prompt-tip }
 
 ### *Homogeneity of variances*
 
 [id8]: ## "Uji *homogeneity of variances* pada Ancova adalah pemeriksaan terkait apakah variabilitas residu dari model regresi seragam di semua tingkat variabel bebas kategorikal."
 
 Uji asumsi yang ke-5 adalah [*homogeneity of variances*][id8]. Uji asumsi ini bertujuan untuk memastikan bahwa variabilitas dari residu regresi seragam di seluruh kelompok perlakuan. Homogenitas varian merupakan asumsi kritis yang perlu dipenuhi agar hasil analisis ANCOVA dapat diandalkan. Jika terdapat perbedaan yang signifikan dalam variabilitas antar kelompok perlakuan, hal ini dapat mempengaruhi validitas interpretasi hasil dan kesimpulan yang diambil dari analisis tersebut. Oleh karena itu, uji ini bertujuan untuk memverifikasi apakah homogenitas varian dapat diasumsikan, sehingga memastikan keabsahan hasil analisis ANCOVA. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
-
-> Bagaimana jika salah satu atau beberapa uji asumsi tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
-{: .prompt-tip }
 
 ## Ancova satu jalur
 
