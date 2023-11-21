@@ -85,7 +85,7 @@ Adapun [uji asumsi][id3] sebelum melakukan perhitungan Ancova adalah uji asumsi 
 
 ### *Outliers*
 
-[id4]: ## "Uji asumsi *outliers* adalah pemeriksaan terhadap data terkait ada atua tidaknya observasi yang secara signifikan berbeda dari pola umum dalam data Anda. Outlier dapat mempengaruhi hasil analisis dan memeriksa asumsi tentang distribusi normalitas dan homogenitas varians."
+[id4]: ## "Uji asumsi outliers adalah pemeriksaan terhadap data terkait ada atua tidaknya observasi yang secara signifikan berbeda dari pola umum dalam data Anda. Outlier dapat mempengaruhi hasil analisis dan memeriksa asumsi tentang distribusi normalitas dan homogenitas varians."
 
 Uji asumsi yang pertama adalah [*outliers*][id4]. Uji asumsi outliers berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. *Outliers* dapat memengaruhi kehandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika ada outlier, distribusi data dapat menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. *Outliers* juga dapat menyebabkan ketidakhomogenan varians antar kelompok, yang dapat menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi *outliers*, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi *outliers* merupakan langkah penting dalam memastikan validitas dan kehandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -145,7 +145,7 @@ Uji asumsi yang ke-2 adalah [*linearity*][id5]. Uji asumsi linearity bertujuan u
 <details>
   <summary>Klik di sini untuk melihat output tabel.</summary>
   
-  <img src="1GhGhq0CVMMm0X6632ltOsoL7tk9qC7">
+  <img src="1Gh_Ghq0_CVMMm0X6632ltOsoL7tk9qC7">
 
 </details>
 
@@ -162,9 +162,9 @@ Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang ar
 
 Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar acak. Data pada *scatter plot* yang telihat acak (tidak membentuk pola tertentu) menandakan hubungan antara kovariat dan variabel terikat adalah linear[^fn-nth-3].
 
-### **Homogeneity of regression slopes**
+### *Homogeneity of regression slopes*
 
-[id6]: ## "Uji asumsi *Homogeneity of regression slopes* pada Ancova digunakan untuk memeriksa apakah hubungan antara variabel kovariat dan variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan."
+[id6]: ## "Uji asumsi Homogeneity of regression slopes pada Ancova digunakan untuk memeriksa apakah hubungan antara variabel kovariat dan variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan."
 
 Uji asumsi yang ke-3 adalah [*Homogeneity of regression slopes*][id6]. Uji asumsi ini bertujuan untuk untuk memastikan bahwa pengaruh variabel kovariat terhadap variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan yang berbeda. Jika hubungan tersebut tidak seragam, ini dapat menunjukkan bahwa efek kovariat bervariasi di antara kelompok perlakuan, yang dapat mengancam validitas analisis Ancova. Oleh karena itu, uji ini membantu memastikan bahwa asumsi homogenitas regresi terpenuhi sebelum melanjutkan analisis Ancova. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -203,7 +203,7 @@ Uji asumsi yang ke-3 adalah [*Homogeneity of regression slopes*][id6]. Uji asums
 <details>
   <summary>Klik di sini untuk melihat output tabel.</summary>
   
-  <img src="1I01XHlL5c4SECdvbSm5zkMSo2OL5k">
+  <img src="1I01XHlL5c4SECdvbSm5z_kM_So2_OL5k">
 
 </details>
 
@@ -227,7 +227,7 @@ Jika asumsi homogenitas lereng regresi terpenuhi, maka F-statistik yang dihasilk
 
 [id7]: ## "Uji normality of residuals pada Ancova adalah pemeriksaan terkait sejauh mana residu dari model regresi memiliki distribusi normal. Hal ini penting karena analisis inferensial bergantung pada asumsi distribusi normal pada residu untuk hasil yang valid."
 
-Uji asumsi yang ke-4 adalah [normality of residuals][id7]. Uji asumsi ini bertujuan untuk memeriksa sejauh mana residu dari model regresi memiliki distribusi normal. Residu yang memiliki distribusi normal menunjukkan bahwa asumsi normalitas terpenuhi, sehingga hasil analisis Ancova dapat diandalkan. Normality of residuals menjadi penting karena analisis inferensial, seperti uji hipotesis dan interval kepercayaan, membutuhkan asumsi distribusi normal pada residu. Jika distribusi residu tidak normal, hal ini dapat memengaruhi validitas hasil dan interpretasi analisis Ancova. Oleh karena itu, uji normality of residuals membantu memastikan bahwa asumsi distribusi normal pada residu terpenuhi untuk hasil analisis yang lebih akurat.
+Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bertujuan untuk memeriksa sejauh mana residu dari model regresi memiliki distribusi normal. Residu yang memiliki distribusi normal menunjukkan bahwa asumsi normalitas terpenuhi, sehingga hasil analisis Ancova dapat diandalkan. Normality of residuals menjadi penting karena analisis inferensial, seperti uji hipotesis dan interval kepercayaan, membutuhkan asumsi distribusi normal pada residu. Jika distribusi residu tidak normal, hal ini dapat memengaruhi validitas hasil dan interpretasi analisis Ancova. Oleh karena itu, uji normality of residuals membantu memastikan bahwa asumsi distribusi normal pada residu terpenuhi untuk hasil analisis yang lebih akurat.
 
 Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
