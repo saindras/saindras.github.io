@@ -220,7 +220,10 @@ Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai _F_ = 0,028 dan n
 
 Jika asumsi homogenitas lereng regresi terpenuhi, maka F-statistik yang dihasilkan dapat diasumsikan memiliki distribusi F yang sesuai[^fn-nth-3]. Sebaliknya, jika asumsinya tidak terpenuhi, maka artinya statistik F yang dihasilkan dievaluasi berdasarkan distribusi yang berbeda dari distribusi sebenarnya. Akibatnya, tingkat kesalahan tes Tipe I meningkat dan kemampuan untuk mendeteksi efek tidak maksimal. Hal ini terutama berlaku ketika ukuran kelompok tidak sama dan ketika kemiringan regresi standar berbeda lebih dari 0,4.
 
-> Jika asumsi _homogeneity of regression slopes_ tidak terpenuhi, maka dapat memodelkan variasi ini secara eksplisit menggunakan model linier bertingkat _(multilevel linear models)_[^fn-nth-3].
+> Jika asumsi _homogeneity of regression slopes_ tidak terpenuhi, maka dapat memodelkan variasi ini secara eksplisit menggunakan model linier bertingkat _(multilevel linear models)_[^fn-nth-3]
+> {: .prompt-info }
+
+> Example line for prompt.
 > {: .prompt-info }
 
 ### Normality of residuals
