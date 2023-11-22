@@ -96,11 +96,11 @@ Uji asumsi yang pertama adalah [*outliers*][id4]. Uji asumsi outliers berfungsi 
    2. Fixed Factor(s): `VLEs`.
    3. Covariate(s): `pretest`.
 2. Klik tombol `Save`, akan muncul jendela `Univariate: Save`. Sesuaikan isiannya sebagai berikut.
-   1. Residuals: `Studentized` (dicentang)
+   1. Residuals: `Studentized` (dicentang).
 3. Klik tombol `Continue`, kemudian klik tombol `OK`. Hasilnya akan muncul pada jendela `output` dan `dataset`. Abaikan dulu jendela `output` dan fokus pada jendela `dataset`.
 4. Pada jendela `dataset`, muncul kolom baru bernama `SRE_1`. Kemudian pilih menu `Transform > Compute Variable`. Pada jendela `Compute Variable`, sesuaikan isiannya sebagai berikut.
-   1. Target Variable: `ABS_SRE_1`
-   2. Numeric Expression: `ABS(SRE_1)`
+   1. Target Variable: `ABS_SRE_1`.
+   2. Numeric Expression: `ABS(SRE_1)`.
 5. Klik tombol `OK` dan kembali ke jendela `dataset`. Muncul kolom baru bernama `ABS_SRE_1`.
 6. Pilih menu `Graphs > Chart Builder`. Apabila muncul jendela dialog, klik `OK`.
 7. Pada jendela `Chart Builder`, tab `Gallery > Choose from:`, pilih `Boxplot`. Klik 2x pada gambar `1-D Boxplot`, maka akan muncul pada kotak `Chart preview uses example data`.
@@ -250,9 +250,9 @@ Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bert
 6. Pada jendela `Explore`, sesuaikan isiannya sebagai berikut.
       1. Dependent list: `Residual for posttest [RES_1]`.
 7. Klik tombol `Plots`, akan muncul jendela `Explore: Plots`, sesuaikan isiannya sebagai berikut.
-      1. Descriptive: `Steam-and-leaf` (hilangkan centang)
-      2. Descriptive: `Histogram` (centang) 
-      3. Centang pada bagian `Normality plots with tests`
+      1. Descriptive: `Steam-and-leaf` (hilangkan centang).
+      2. Descriptive: `Histogram` (centang).
+      3. Centang pada bagian `Normality plots with tests`.
 8. Klik tombol `Continue`, kemudian klik tombol `OK`. Hasil akan muncul pada jendela `output` berupa gambar hostogram dan tabel `Tests of Normality`.
 9. Pada jendela `output`, klik 2x pada gambar histogram, akan muncul jendela `Chart Editor`.
 10. Pada jendela `Chart Editor` klik menu `Show Distribution Curve`, akan muncul jendela `Properties`. Pastikan pilihan pada kotak `Curves` adalah `Normal`. Setelah itu tekan tombol `Close` dan tutup jendela `Chart Editor`. Kita akan melihat gambar histogram pada jendela `output` dilengkapi dengan garis kurva normal.
@@ -277,6 +277,8 @@ Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bert
 
 Pada tabel `Tests of Normality`, terlihat nilai *Kolmogorov-Smirnov Statistic* = 0,077 dengan nilai *Sig.* = 0.200. Terlihat juga nilai *Shapiro-Wilk Statistic* = 0,990 dengan nilai *Sig.* = 0.901. Nilai *Sig.* lebih besar dari 0,05. Hal ini menandakan data *unstandardized* residual berdistribusi normal. Oleh karena itu, uji asumsi *normality of residuals* terpenuhi.
 
+Terdapat banyak asumsi normalitas yang keliru *(miskonsepsi)*. Asumsi normalitas yang benar adalah mengacu pada sisa model (residu) yang terdistribusi secara normal, atau distribusi sampling dari parameter, bukan mengacu pada data itu sendiri[^fn-nth-3]. Dalam kasus ini, kita menganalisis asumsi normalitas mengacu pada nilai absolute studentized residual dari model regresi, bukan mengacu pada nilai pretest atau posttest mahasiswanya langsung.
+
 > Bagaimana jika data tidak normal atau uji asumsi *normality of residuals* tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
 {: .prompt-tip }
 
@@ -285,6 +287,35 @@ Pada tabel `Tests of Normality`, terlihat nilai *Kolmogorov-Smirnov Statistic* =
 [id8]: ## "Uji *homogeneity of variances* pada Ancova adalah pemeriksaan terkait apakah variabilitas residu dari model regresi seragam di semua tingkat variabel bebas kategorikal."
 
 Uji asumsi yang ke-5 adalah [*homogeneity of variances*][id8]. Uji asumsi ini bertujuan untuk memastikan bahwa variabilitas dari residu regresi seragam di seluruh kelompok perlakuan. Homogenitas varian merupakan asumsi kritis yang perlu dipenuhi agar hasil analisis ANCOVA dapat diandalkan. Jika terdapat perbedaan yang signifikan dalam variabilitas antar kelompok perlakuan, hal ini dapat mempengaruhi validitas interpretasi hasil dan kesimpulan yang diambil dari analisis tersebut. Oleh karena itu, uji ini bertujuan untuk memverifikasi apakah homogenitas varian dapat diasumsikan, sehingga memastikan keabsahan hasil analisis ANCOVA. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
+
+#### Prosedur input
+
+1. Masuk ke menu SPSS `Analyze > Compare Means > One-Way ANOVA`, akan muncul jendela `One-Way ANOVA` kemudian sesuaikan isiannya sebagai berikut.
+      1. Dependen List: `Residual for posttest [RES_1]`.
+      2. Factor: `VLEs`.
+2. Klik tombol `Options`, kemudian sesuaikan isiannya sebagai berikut.
+      1. Statistics: `Homogeneity of variance test` (dicentang).
+3. Klik tombol `Continue`, lalu klik tombol `OK`, akan muncul tabel `Test of Homogeneity of Variances` pada jendela output.
+
+#### Tampilan output
+
+<details>
+  <summary>Klik di sini untuk melihat output tabel.</summary>
+  
+  <img src="1If_PWBl16HnoT-g16fel76Mr_tvmZVTN">
+
+</details>
+
+#### Interpretasi hasil
+
+Hipotesis *Levene's Test* adalah sebagai berikut.
+
+1. Hipotesis Nol (H<sub>0</sub>): tidak terdapat perbedaan yang signifikan dalam varians antar kelompok data, atau varians dari setiap kelompok data adalah sama (homogen).
+2. Hipotesis Alternatif (H<sub>a</sub>): terdapat perbedaan yang signifikan dalam varians antar kelompok data (tidak homogen/heterogen).
+
+Jika nilai signifikansi *Levene's Test* lebih besar dari 0,05, maka Hipotesis Alternatif ditolak, dan Hipotesis Nol diterima. Dengan kata lain, kita tidak memiliki cukup bukti statistik untuk menolak Hipotesis Nol dan asumsi  *homogeneity of variances* terpenuhi[^fn-nth-3].
+
+Pada tabel `Test of Homogeneity of Variances`, terlihat nilai *Sig.* = 0,066. Nilai ini lebih besar dari 0,05 yang artinya variabilitas atau dispersi dari kelompok-kelompok yang dibandingkan adalah sama atau tidak terdapat perbedaan signifikan dalam variabilitas antar kelompok. Oleh karena itu, asumsi *homogeneity of variances* terpenuhi.
 
 ## Ancova satu jalur
 
