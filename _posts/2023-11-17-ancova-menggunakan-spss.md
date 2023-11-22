@@ -89,11 +89,7 @@ Download dataset:
 
 [id3]: ## "Uji asumsi dilakukan untuk memastikan bahwa data penelitian memenuhi prasyarat yang diperlukan oleh analisis Ancova. Memeriksa asumsi-asumsi ini penting karena kesalahan dalam asumsi dapat mempengaruhi keandalan dan validitas hasil analisis Ancova. Jika data tidak memenuhi asumsi-asumsi tersebut, maka mungkin perlu mencari alternatif atau menerapkan transformasi data untuk memenuhi asumsi tersebut sebelum menggunakan Ancova."
 
-Terdapat dua jenis [uji asumsi][id3] sebelum melakukan perhitungan Ancova yakni asumsi dasar dan tambahan. 
-
-Uji asumsi dasar meliputi [tipe data dari masing-masing variabel][id9], [observasi yang independen antar kelompok dalam variabel bebas][id10], dan [independensi antara co-variabel dan variabel terikat][id11]. Seluruh uji asumsi dasar akan terpenuhi apabila menggunakan desain penelitian [quasi-experimental pretest-posttest control group][id12]. Sedangkan uji asumsi tambahan dalam Ancova ada 5 yakni, uji asumsi *outliers*, *linearity*, *Homogeneity of regression slopes*, *normality of residuals*, dan *homogeneity of variances*.
-
-Kedua jenis uji asumsi tersebut wajib dipenuhi sebelum melakukan analisis Ancova guna mengurangi bias hasil penelitian. Berikut prosedur uji asumsi menggunakan SPSS terutama pada kelima uji asumsi tambahan.
+Terdapat dua jenis [uji asumsi][id3] sebelum melakukan perhitungan Ancova yakni asumsi dasar dan tambahan. Uji asumsi dasar meliputi [tipe data dari masing-masing variabel][id9], [observasi yang independen antar kelompok dalam variabel bebas][id10], dan [independensi antara co-variabel dan variabel terikat][id11]. Seluruh uji asumsi dasar akan terpenuhi apabila menggunakan desain penelitian [quasi-experimental pretest-posttest control group][id12]. Sedangkan uji asumsi tambahan dalam Ancova ada 5 yakni, uji asumsi *outliers*, *linearity*, *homogeneity of regression slopes*, *normality of residuals*, dan *homogeneity of variances*. Uji asumsi dasar dan uji asumsi tambahan wajib dipenuhi sebelum melakukan analisis Ancova guna mengurangi bias hasil penelitian. Berikut prosedur uji asumsi menggunakan SPSS terutama pada kelima uji asumsi tambahan.
 
 ### *Outliers*
 
