@@ -325,6 +325,9 @@ Jika nilai signifikansi *Levene's Test* lebih besar dari 0,05, maka Hipotesis Al
 
 Pada tabel `Test of Homogeneity of Variances`, terlihat nilai *Sig.* = 0,066. Nilai ini lebih besar dari 0,05 yang artinya variabilitas atau dispersi dari kelompok-kelompok yang dibandingkan adalah sama atau tidak terdapat perbedaan signifikan dalam variabilitas antar kelompok. Oleh karena itu, asumsi *homogeneity of variances* terpenuhi.
 
+> Bagaimana jika uji asumsi *homogeneity of variances* tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
+{: .prompt-tip }
+
 ## Ancova satu jalur
 
 Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Ancova. Langkah-langkah Ancova pada SPSS adalah sebagai berikut.
