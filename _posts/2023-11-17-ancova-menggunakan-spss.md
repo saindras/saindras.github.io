@@ -79,15 +79,27 @@ Download dataset:
 
 ## Uji asumsi
 
-Adapun [uji asumsi][id3] sebelum melakukan perhitungan Ancova adalah uji asumsi ouliers, linearity, *Homogeneity of regression slopes*, normality of residuals, dan homogeneity of variances.
+[id9]: ## "Pada contoh penelitian, tipe data yang digunakan pada variabel bebas adalah kategorikal degan tiga kategori/kelompok/dimensi/faktor. Sedangkan tipe data variabel terikat dan co-variabel adalah numerikal dengan skala 0 sampai dengan 100."
+
+[id10]: ## "Responden dalam tiap kelompok pada variabel bebas harus berbeda. Misalnya, kelompok VLE1 adalah peserta didik kelas XI-A, kelompok VLE2 adalah peserta didik kelas XI-B, dan kelompok VLE3 adalah peserta didik kelas XI-C."
+
+[id11]: ## "Proses penilaian pre-test dan post-test harus berbeda dari segi waktu. Pre-test sebagai co-variabel dilakukan pada awal pertemuan. Sedangkan post-test sebagai variabel terikat dilakukan di akhir pertemuan. Hal ini akan memberikan independensi antara co-variabel dan variabel terikat."
+
+[id12]: ## "Desain penelitian quasi-experimental pretest-posttest control group adalah suatu pendekatan penelitian yang mencoba untuk mengevaluasi efek dari suatu perlakuan atau intervensi tanpa adanya randomisasi penuh seperti pada desain eksperimen murni. Dalam desain ini, peneliti mengumpulkan data sebelum dan sesudah perlakuan dari kelompok perlakuan (yang menerima intervensi atau perlakuan) dan kelompok kontrol (yang tidak menerima intervensi)."
 
 [id3]: ## "Uji asumsi dilakukan untuk memastikan bahwa data penelitian memenuhi prasyarat yang diperlukan oleh analisis Ancova. Memeriksa asumsi-asumsi ini penting karena kesalahan dalam asumsi dapat mempengaruhi keandalan dan validitas hasil analisis Ancova. Jika data tidak memenuhi asumsi-asumsi tersebut, maka mungkin perlu mencari alternatif atau menerapkan transformasi data untuk memenuhi asumsi tersebut sebelum menggunakan Ancova."
+
+Terdapat dua jenis [uji asumsi][id3] sebelum melakukan perhitungan Ancova yakni asumsi dasar dan tambahan. 
+
+Uji asumsi dasar meliputi [tipe data dari masing-masing variabel][id9], [observasi yang independen antar kelompok dalam variabel bebas][id10], dan [independensi antara co-variabel dan variabel terikat][id11]. Seluruh uji asumsi dasar akan terpenuhi apabila menggunakan desain penelitian [quasi-experimental pretest-posttest control group][id12]. Sedangkan uji asumsi tambahan dalam Ancova ada 5 yakni, uji asumsi *outliers*, *linearity*, *Homogeneity of regression slopes*, *normality of residuals*, dan *homogeneity of variances*.
+
+Kedua jenis uji asumsi tersebut wajib dipenuhi sebelum melakukan analisis Ancova guna mengurangi bias hasil penelitian. Berikut prosedur uji asumsi menggunakan SPSS terutama pada kelima uji asumsi tambahan.
 
 ### *Outliers*
 
 [id4]: ## "Uji asumsi outliers adalah pemeriksaan terhadap data terkait ada atua tidaknya observasi yang secara signifikan berbeda dari pola umum dalam data Anda. Outlier dapat mempengaruhi hasil analisis dan memeriksa asumsi tentang distribusi normalitas dan homogenitas varians."
 
-Uji asumsi yang pertama adalah [*outliers*][id4]. Uji asumsi outliers berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. *Outliers* dapat memengaruhi kehandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika ada outlier, distribusi data dapat menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. *Outliers* juga dapat menyebabkan ketidakhomogenan varians antar kelompok, yang dapat menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi *outliers*, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi *outliers* merupakan langkah penting dalam memastikan validitas dan kehandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
+Uji asumsi yang pertama adalah [*outliers*][id4]. Uji asumsi *outliers* berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. *Outliers* dapat memengaruhi kehandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika ada outlier, distribusi data dapat menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. *Outliers* juga dapat menyebabkan ketidakhomogenan varians antar kelompok, yang dapat menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi *outliers*, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi *outliers* merupakan langkah penting dalam memastikan validitas dan kehandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
 #### Prosedur input
 
