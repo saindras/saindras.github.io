@@ -179,7 +179,7 @@ Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar 
 
 ### *Homogeneity of regression slopes*
 
-[id6]: ## "Uji asumsi Homogeneity of regression slopes pada Ancova digunakan untuk memeriksa apakah hubungan antara variabel kovariat dan variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan."
+[id6]: ## "Uji asumsi homogeneity of regression slopes pada Ancova digunakan untuk memeriksa apakah hubungan antara variabel kovariat dan variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan."
 
 Uji asumsi yang ke-3 adalah [*Homogeneity of regression slopes*][id6]. Uji asumsi ini bertujuan untuk untuk memastikan bahwa pengaruh variabel kovariat terhadap variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan yang berbeda. Jika hubungan tersebut tidak seragam, ini dapat menunjukkan bahwa efek kovariat bervariasi di antara kelompok perlakuan, yang dapat mengancam validitas analisis Ancova. Oleh karena itu, uji ini membantu memastikan bahwa asumsi homogenitas regresi terpenuhi sebelum melanjutkan analisis Ancova. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -292,7 +292,7 @@ Terdapat banyak asumsi normalitas yang keliru *(miskonsepsi)*. Asumsi normalitas
 
 ### *Homogeneity of variances*
 
-[id8]: ## "Uji *homogeneity of variances* pada Ancova adalah pemeriksaan terkait apakah variabilitas residu dari model regresi seragam di semua tingkat variabel bebas kategorikal."
+[id8]: ## "Uji homogeneity of variances pada Ancova adalah pemeriksaan terkait apakah variabilitas residu dari model regresi seragam di semua tingkat variabel bebas kategorikal."
 
 Uji asumsi yang ke-5 adalah [*homogeneity of variances*][id8]. Uji asumsi ini bertujuan untuk memastikan bahwa variabilitas dari residu regresi seragam di seluruh kelompok perlakuan. Homogenitas varian merupakan asumsi kritis yang perlu dipenuhi agar hasil analisis ANCOVA dapat diandalkan. Jika terdapat perbedaan yang signifikan dalam variabilitas antar kelompok perlakuan, hal ini dapat mempengaruhi validitas interpretasi hasil dan kesimpulan yang diambil dari analisis tersebut. Oleh karena itu, uji ini bertujuan untuk memverifikasi apakah homogenitas varian dapat diasumsikan, sehingga memastikan keabsahan hasil analisis ANCOVA. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -332,7 +332,61 @@ Pada tabel `Test of Homogeneity of Variances`, terlihat nilai *Sig.* = 0,066. Ni
 
 Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Ancova. Langkah-langkah Ancova pada SPSS adalah sebagai berikut.
 
-## Interpretasi hasil
+#### Prosedur input
+
+1. Masuk ke menu SPSS `Analyze > General Linear Model > Univariate`. Pada jendela `Univariate`, sesuaikan isiannya sebagai berikut.
+   1. Dependent Variable: `posttest`.
+   2. Fixed Factor(s): `VLEs`.
+   3. Covariate(s): `pretest`.
+2. Cek kembali pada bagian `Model`. Pastikan `Specify Model` adalah `Full factorial`.
+3. Cek kembali pada bagian `Save`. Pastikan tidak ada yang tercentang pada kotak `Residuals`.
+4. Klik tombol `Plots`, akan muncul jendela `Univariate: Profile Plots`, sesuaikan isiannya sebagai berikut.
+   1. Factors: `VLEs`.
+   2. Plots: `VLEs`.
+5. Klik tombol `Continue`.
+6. Pada jendela `Univariate`, klik tombol `EM Means`, akan muncul jendela `Univariate: Estimated Marginal Means`, sesuaikan isiannya sebagai berikut.
+   1. Display Means for: `VLEs`.
+   2. Centang pada pilihan `Compare main effects`.
+   3. Confidence interval adjustment: `Bonferroni`.
+7. Klik tombol `Continue`.
+8. Pada jendela `Univariate`, klik tombol `OK`. Hasil akan muncul pada jendela `output` berupa tabel `Tests of Between-Subjects Effects`, `Estimates`, dan `Pairwise Comparisons`, serta hasil berupa gambar plot terkait *Estimated Marginal Means of posttest*.
+
+<details>
+  <summary>Klik di sini untuk melihat detail langkah nomor 4.</summary>
+  
+  <img src="">
+
+</details>
+
+#### Tampilan output
+
+<details>
+  <summary>Klik di sini untuk melihat output tabel Tests of Between-Subjects Effects.</summary>
+  
+  <img src="1IppZ1vUv3kfHEKL3UkF5cegibNWduccu">
+
+</details>
+
+<details>
+  <summary>Klik di sini untuk melihat output tabel Estimates.</summary>
+  
+  <img src="1IqQDZLrn9sd3JOLXCfKwbLs7faQDkRxb">
+
+</details>
+
+<details>
+  <summary>Klik di sini untuk melihat output tabel Pairwise Comparisons.</summary>
+  
+  <img src="1It_0VA7gaoOjTd5phPYX-NX7zYtbUSBi">
+
+<details>
+  <summary>Klik di sini untuk melihat output plot Estimated Marginal Means of posttest.</summary>
+  
+  <img src="1ItzzCuLYvyo1PyobZAsUmOUul2qcH2gm">
+
+</details>
+
+#### Interpretasi hasil
 
 *(dalam proses)*
 
