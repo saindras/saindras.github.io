@@ -379,7 +379,10 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
   
   <img src="1It_0VA7gaoOjTd5phPYX-NX7zYtbUSBi">
 
+</details>
+
 <details>
+
   <summary>Klik di sini untuk melihat output plot Estimated Marginal Means of posttest.</summary>
   
   <img src="1ItzzCuLYvyo1PyobZAsUmOUul2qcH2gm">
