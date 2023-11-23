@@ -354,7 +354,7 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 <details>
   <summary>Klik di sini untuk melihat detail langkah nomor 4.</summary>
   
-  <img src="">
+  <img src="1J6HkacWhMs9f-XXoFh_qxZKrjFQOffTS">
 
 </details>
 
