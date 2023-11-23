@@ -332,7 +332,7 @@ Pada tabel `Test of Homogeneity of Variances`, terlihat nilai *Sig.* = 0,066. Ni
 
 Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Ancova. Langkah-langkah Ancova pada SPSS adalah sebagai berikut.
 
-#### Prosedur input
+### Prosedur input
 
 1. Masuk ke menu SPSS `Analyze > General Linear Model > Univariate`. Pada jendela `Univariate`, sesuaikan isiannya sebagai berikut.
    1. Dependent Variable: `posttest`.
@@ -358,7 +358,7 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 
 </details>
 
-#### Tampilan output
+### Tampilan output
 
 <details>
   <summary>Klik di sini untuk melihat output tabel Tests of Between-Subjects Effects.</summary>
@@ -386,7 +386,7 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 
 </details>
 
-#### Interpretasi hasil
+### Interpretasi hasil
 
 *(dalam proses)*
 
