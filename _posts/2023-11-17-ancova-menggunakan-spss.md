@@ -49,6 +49,9 @@ Adapun hipotesis-hipotesis penelitian adalah sebagai berikut.
 
 1. H1: Terdapat pengaruh yang signifikan VLEs terhadap prestasi belajar dikontrol oleh pretest.
 2. H2: Terdapat perbedaan signifikan antara VLE1, VLE2, dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
+    1. H2.1: Terdapat perbedaan signifikan antara VLE1 dan VLE2 terhadap prestasi belajar dikontrol oleh pretest.
+    2. H2.2: Terdapat perbedaan signifikan antara VLE1 dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
+    3. H2.3: Terdapat perbedaan signifikan antara VLE2 dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
 
 ## Inisiasi data
 
@@ -391,7 +394,14 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 
 ### Interpretasi hasil
 
-*(dalam proses)*
+Pada tabel `Tests of Between-Subjects Effects`, terlihat nilai signifikansi dari variabel `pretest` kurang dari 0,05 (*F* = 62,75; *Sig.* = 0,000) dan nilai dari variabel `VLEs` kurang dari 0,05 (*F* = 4,026; *Sig.* = 0,023). Nilai-nilai tersebut menjawab hipotesis penelitian yang pertama yakni terdapat pengaruh yang signifikan VLEs terhadap prestasi belajar dikontrol oleh pretest.
+
+Pada tabel `Estimates`, terlihat rata-rata nilai posttest setelah dikontrol oleh nilai pretest dari kelompok VLE3 lebih tinggi dari VLE2 dan VLE1, serta VLE1 lebih tinggi dari VLE2. (VLE3 > VLE1 > VLE2). Hasil ini juga dapat dilihat dalam bentuk gambar diagram plot `Estimated Marginal Means of posttest`.
+
+Pada tabel `Pairwise Comparisons`, terlihat bahwa perbedaan antara VLE3 dan VLE2 adalah signifikan (*Sig.* = 0,042; *Sig.* < 0,05). Perbedaan antara VLE3 dan VLE1 tidak signifikan (*Sig.* = 1,000; *Sig.* > 0,05). Perbedaan antara VLE2 dan VLE1 tidak signifikan (*Sig.* = 0,113; *Sig.* > 0,05). Hasil-hasil ini sekaligus menjawab hipotesis penelitian yang kedua yakni,
+* Tidak terdapat perbedaan signifikan antara VLE1 dan VLE2 terhadap prestasi belajar dikontrol oleh pretest.
+* Tidak terdapat perbedaan signifikan antara VLE1 dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
+* Terdapat perbedaan signifikan antara VLE2 dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
 
 ## Referensi
 
