@@ -405,14 +405,14 @@ Pada tabel `Pairwise Comparisons`, terlihat bahwa perbedaan antara VLE3 dan VLE2
 * Tidak terdapat perbedaan signifikan antara VLE1 dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
 * Terdapat perbedaan signifikan antara VLE2 dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
 
-## Referensi
-
-[^footnote]: Pardoe, I. (2021). *Applied regression modeling* (3rd ed). Wiley.
-[^fn-nth-2]: Klopper, J. (2022). *Analysis of covariance using Python*. YouTube. <https://www.youtube.com/watch?v=FhZB1oGVrYc>{:target="blank"}.
-[^fn-nth-3]: Field, A. (2017). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). SAGE Publications.
-
 ## Sitasi dokumen ini
 
 Santyadiputra, G. S., Purnomo, & Juniantari, M. (2023, November 27). Ancova satu jalur menggunakan SPSS. Zenodo. https://doi.org/10.5281/zenodo.10208118
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10208118.svg)](https://doi.org/10.5281/zenodo.10208118)
+
+## Referensi
+
+[^footnote]: Pardoe, I. (2021). *Applied regression modeling* (3rd ed). Wiley.
+[^fn-nth-2]: Klopper, J. (2022). *Analysis of covariance using Python*. YouTube. <https://www.youtube.com/watch?v=FhZB1oGVrYc>{:target="blank"}.
+[^fn-nth-3]: Field, A. (2017). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). SAGE Publications.
