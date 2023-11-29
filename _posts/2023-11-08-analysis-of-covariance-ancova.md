@@ -32,7 +32,7 @@ Adapun uji asumsi yang terlebih dahulu dilakukan sebelum ke proses Ancova adalah
 
 ## Hasil perhitungan menggunakan Python, R, dan SPSS
 
-1. [Hasil perhitungan menggunakan Python](https://nbviewer.org/github/saindras/statistik/blob/5ecfb84036a86f6b0f385bf3b5fd29300dba6650/ancova-satu-jalur/ancovasatujalur.ipynb){:target="_blank"}
+1. [Hasil perhitungan menggunakan Python](https://nbviewer.org/github/saindras/statistik/blob/4db47c97616b2579d986841fb2c869da0366606d/ancova-satu-jalur/ancova-satu-jalur-menggunakan-python.ipynb){:target="_blank"}
 2. [Hasil perhitungan menggunakan R](https://rpubs.com/gsaindras/Ancova-satu-jalur-menggunakan-r){:target="_blank"}
 3. [Hasil perhitungan menggunakan SPSS](https://saindras.github.io/posts/ancova-satu-jalur-menggunakan-spss/){:target="_blank"}
 
