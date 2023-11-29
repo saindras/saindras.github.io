@@ -40,7 +40,6 @@ social:
     # The first element serves as the copyright owner's link
     - https://twitter.com/saindras # change to your twitter homepage
     - https://github.com/saindras # change to your github homepage
-    # Uncomment below to add more social links
     - https://www.facebook.com/saindrasantyadi
     - https://www.linkedin.com/in/gsaindras
 
@@ -50,7 +49,7 @@ google_site_verification: T3v_FHf75SvpM-dYR1EDcKBgoUaT44FKIs-8_1kI5nc # fill in 
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id: # fill in your Google Analytics ID
+  id: G-HKSR39DP01 # fill in your Google Analytics ID
 
 # Prefer color scheme setting.
 #
