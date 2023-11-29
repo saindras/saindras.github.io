@@ -10,6 +10,8 @@ tags:
 date: 2023-11-17 10:35 +0700
 ---
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10219479.svg)](https://doi.org/10.5281/zenodo.10219479){:target="blank"}
+
 ## Pendahuluan
 
 Pada tulisan sebelumnya terkait [Analysis of Covariance (Ancova)](https://saindras.github.io/posts/analysis-of-covariance-ancova/){:target="_blank"}, telah dijelaskan bahwa Ancova merupakan salah satu metode statistik gabungan dari Anova dan Regresi untuk membandingkan rata-rata antara dua atau lebih kelompok dengan mempertimbangkan pengaruh variabel bebas yang disebut sebagai covariate. Salah satu tool statistik yang dapat digunakan untuk melakukan perhitungan Ancova adalah [Statistical Package for the Social Sciences (SPSS)][id1] versi 25.
@@ -406,6 +408,12 @@ Pada tabel `Pairwise Comparisons`, terlihat bahwa perbedaan antara VLE3 dan VLE2
 * Tidak terdapat perbedaan signifikan antara VLE1 dan VLE2 terhadap prestasi belajar dikontrol oleh pretest.
 * Tidak terdapat perbedaan signifikan antara VLE1 dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
 * Terdapat perbedaan signifikan antara VLE2 dan VLE3 terhadap prestasi belajar dikontrol oleh pretest.
+
+## Sitasi dokumen ini
+
+Santyadiputra, G. S., Purnomo, & Juniantari, M. (2023, November 29). Ancova satu jalur menggunakan SPSS. GitHub. https://doi.org/10.5281/zenodo.10219479
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10219479.svg)](https://doi.org/10.5281/zenodo.10219479){:target="blank"}
 
 ## Referensi
 
