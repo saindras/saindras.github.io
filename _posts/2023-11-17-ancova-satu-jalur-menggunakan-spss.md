@@ -420,5 +420,3 @@ Santyadiputra, G. S., Purnomo, & Juniantari, M. (2023, November 29). Ancova satu
 [^footnote]: Pardoe, I. (2021). *Applied regression modeling* (3rd ed). Wiley.
 [^fn-nth-2]: Klopper, J. (2022). *Analysis of covariance using Python*. YouTube. <https://www.youtube.com/watch?v=FhZB1oGVrYc>{:target="blank"}.
 [^fn-nth-3]: Field, A. (2017). *Discovering Statistics Using IBM SPSS Statistics* (5th ed.). SAGE Publications.
-
-## TES
