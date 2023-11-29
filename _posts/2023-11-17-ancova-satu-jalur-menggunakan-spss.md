@@ -1,11 +1,14 @@
 ---
 layout: post
 title: Ancova satu jalur menggunakan SPSS
-categories: [Statistik, Ancova]
-tags: [statistik, ancova]
+categories:
+- Statistik
+- Ancova
+tags:
+- statistik
+- ancova
 date: 2023-11-17 10:35 +0700
 ---
-
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10208118.svg)](https://doi.org/10.5281/zenodo.10208118)
 
 ## Pendahuluan
