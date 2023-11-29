@@ -9,7 +9,8 @@ tags:
 - ancova
 date: 2023-11-17 10:35 +0700
 ---
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10208118.svg)](https://doi.org/10.5281/zenodo.10208118)
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10217507.svg)](https://doi.org/10.5281/zenodo.10217507){:target="blank"}
 
 ## Pendahuluan
 
@@ -410,9 +411,9 @@ Pada tabel `Pairwise Comparisons`, terlihat bahwa perbedaan antara VLE3 dan VLE2
 
 ## Sitasi dokumen ini
 
-Santyadiputra, G. S., Purnomo, & Juniantari, M. (2023, November 27). Ancova satu jalur menggunakan SPSS. Zenodo. https://doi.org/10.5281/zenodo.10208118
+Santyadiputra, G. S., Purnomo, & Juniantari, M. (2023, November 29). Ancova satu jalur menggunakan SPSS. GitHub. https://doi.org/10.5281/zenodo.10217507
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10208118.svg)](https://doi.org/10.5281/zenodo.10208118)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10217507.svg)](https://doi.org/10.5281/zenodo.10217507){:target="blank"}
 
 ## Referensi
 
