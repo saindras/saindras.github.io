@@ -2,11 +2,13 @@
 layout: post
 title: Analysis of Covariance (Ancova)
 date: 2023-11-08 15:13 +0700
-categories: [Statistik, Ancova]
-tags: [statistik, ancova]
+categories:
+- Statistik
+- Ancova
+tags:
+- statistik
+- ancova
 ---
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10215828.svg)](https://doi.org/10.5281/zenodo.10215828){:target="_blank"}
 
 ## Sekilas tentang Ancova
 
@@ -32,19 +34,10 @@ Adapun uji asumsi yang terlebih dahulu dilakukan sebelum ke proses Ancova adalah
 
 1. [Hasil perhitungan menggunakan Python](https://nbviewer.org/github/saindras/statistik/blob/5ecfb84036a86f6b0f385bf3b5fd29300dba6650/ancova-satu-jalur/ancovasatujalur.ipynb){:target="_blank"}
 2. [Hasil perhitungan menggunakan R](https://rpubs.com/gsaindras/Ancova-satu-jalur-menggunakan-r){:target="_blank"}
-3. [Hasil perhitungan menggunakan SPSS](https://saindras.github.io/posts/ancova-menggunakan-spss/){:target="_blank"}
+3. [Hasil perhitungan menggunakan SPSS](https://saindras.github.io/posts/ancova-satu-jalur-menggunakan-spss/){:target="_blank"}
 
 ## Referensi
 
 1. [Analysis of covariance using Python](https://www.youtube.com/watch?v=FhZB1oGVrYc){:target="_blank"}
 2. [Ancova in R](https://www.datanovia.com/en/lessons/Ancova-in-r/){:target="_blank"}
 3. [Ancova using R and Python](https://www.reneshbedre.com/blog/Ancova.html){:target="_blank"}
-
-## Sitasi dokumen ini
-
-Santyadiputra, G. S., Purnomo, & Juniantari, M. (2023, November 29). Analysis of Covariance (Ancova). GitHub. https://doi.org/10.5281/zenodo.10215828
-
-> Untuk sitasi lebih lanjut, silakan klik badge di bawah.
-{: .prompt-info }
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10215828.svg)](https://doi.org/10.5281/zenodo.10215828){:target="_blank"}
