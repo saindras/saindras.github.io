@@ -88,11 +88,11 @@ Download dataset:
 
 ## Uji asumsi
 
-[id9]: ## "Pada contoh penelitian, tipe data yang digunakan pada variabel bebas adalah kategorikal degan tiga kategori/kelompok/dimensi/faktor. Sedangkan tipe data variabel terikat dan co-variabel adalah numerikal dengan skala 0 sampai dengan 100."
+[id9]: ## "Pada contoh penelitian, tipe data yang digunakan pada variabel bebas adalah kategorikal dengan tiga kategori/kelompok/dimensi/faktor. Sedangkan tipe data variabel terikat dan co-variabel adalah numerikal dengan skala 0 sampai dengan 100."
 
 [id10]: ## "Responden dalam tiap kelompok pada variabel bebas harus berbeda. Misalnya, kelompok VLE1 adalah peserta didik kelas XI-A, kelompok VLE2 adalah peserta didik kelas XI-B, dan kelompok VLE3 adalah peserta didik kelas XI-C."
 
-[id11]: ## "Proses penilaian pre-test dan post-test harus berbeda dari segi waktu. Pre-test sebagai co-variabel dilakukan pada awal pertemuan. Sedangkan post-test sebagai variabel terikat dilakukan di akhir pertemuan. Hal ini akan memberikan independensi antara co-variabel dan variabel terikat."
+[id11]: ## "Proses penilaian pretest dan posttest harus berbeda dari segi waktu. Pretest sebagai co-variabel dilakukan pada awal pertemuan. Sedangkan posttest sebagai variabel terikat dilakukan di akhir pertemuan. Hal ini akan memberikan independensi antara co-variabel dan variabel terikat."
 
 [id12]: ## "Desain penelitian quasi-experimental pretest-posttest control group adalah suatu pendekatan penelitian yang mencoba untuk mengevaluasi efek dari suatu perlakuan atau intervensi tanpa adanya randomisasi penuh seperti pada desain eksperimen murni. Dalam desain ini, peneliti mengumpulkan data sebelum dan sesudah perlakuan dari kelompok perlakuan (yang menerima intervensi atau perlakuan) dan kelompok kontrol (yang tidak menerima intervensi)."
 
@@ -249,7 +249,7 @@ Jika asumsi homogenitas lereng regresi terpenuhi, maka F-statistik yang dihasilk
 
 ### Normality of residuals
 
-[id7]: ## "Uji normality of residuals pada Ancova adalah pemeriksaan terkait sejauh mana residu dari model regresi memiliki distribusi normal. Hal ini penting karena analisis inferensial bergantung pada asumsi distribusi normal pada residu untuk hasil yang valid."
+[id7]: ## "Uji asumsi normality of residuals pada Ancova adalah pemeriksaan terkait sejauh mana residu dari model regresi memiliki distribusi normal. Hal ini penting karena analisis inferensial bergantung pada asumsi distribusi normal pada residu untuk hasil yang valid."
 
 Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bertujuan untuk memeriksa sejauh mana residu dari model regresi memiliki distribusi normal. Residu yang memiliki distribusi normal menunjukkan bahwa asumsi normalitas terpenuhi, sehingga hasil analisis Ancova dapat diandalkan. Normality of residuals menjadi penting karena analisis inferensial, seperti uji hipotesis dan interval kepercayaan, membutuhkan asumsi distribusi normal pada residu. Jika distribusi residu tidak normal, hal ini dapat memengaruhi validitas hasil dan interpretasi analisis Ancova. Oleh karena itu, uji normality of residuals membantu memastikan bahwa asumsi distribusi normal pada residu terpenuhi untuk hasil analisis yang lebih akurat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -271,7 +271,7 @@ Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bert
       2. Descriptive: `Histogram` (centang).
       3. Centang pada bagian `Normality plots with tests`.
 8. Klik tombol `Continue`, kemudian klik tombol `OK`. Hasil akan muncul pada jendela `output` berupa gambar histogram dan tabel `Tests of Normality`.
-9. Pada jendela `output`, klik 2x pada gambar histogram, akan muncul jendela `Chart Editor`.
+9. Pada jendela `output`, klik 2 kali pada gambar histogram, akan muncul jendela `Chart Editor`.
 10. Pada jendela `Chart Editor` klik menu `Show Distribution Curve`, akan muncul jendela `Properties`. Pastikan pilihan pada kotak `Curves` adalah `Normal`. Setelah itu tekan tombol `Close` dan tutup jendela `Chart Editor`. Kita akan melihat gambar histogram pada jendela `output` dilengkapi dengan garis kurva normal.
 
 #### Tampilan output
@@ -294,14 +294,14 @@ Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bert
 
 Pada tabel `Tests of Normality`, terlihat nilai *Kolmogorov-Smirnov Statistic* = 0,077 dengan nilai *Sig.* = 0.200. Terlihat juga nilai *Shapiro-Wilk Statistic* = 0,990 dengan nilai *Sig.* = 0.901. Nilai *Sig.* lebih besar dari 0,05. Hal ini menandakan data *unstandardized* residual berdistribusi normal. Oleh karena itu, uji asumsi *normality of residuals* terpenuhi.
 
-Terdapat banyak asumsi normalitas yang keliru *(miskonsepsi)*. Asumsi normalitas yang benar adalah mengacu pada sisa model (residu) yang terdistribusi secara normal, atau distribusi sampling dari parameter, bukan mengacu pada data itu sendiri[^fn-nth-3]. Dalam kasus ini, kita menganalisis asumsi normalitas mengacu pada nilai absolute studentized residual dari model regresi, bukan mengacu pada nilai pretest atau posttest mahasiswanya langsung.
+Terdapat banyak asumsi normalitas yang keliru *(miskonsepsi)*. Asumsi normalitas yang benar adalah mengacu pada sisa model (residu) yang terdistribusi secara normal, atau distribusi sampling dari parameter, bukan mengacu pada data itu sendiri[^fn-nth-3]. Dalam kasus ini, kita menganalisis asumsi normalitas mengacu pada nilai absolute studentized residual dari model regresi, bukan mengacu pada nilai pretest atau posttest secara langsung.
 
 > Bagaimana jika data tidak normal atau uji asumsi *normality of residuals* tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
 {: .prompt-tip }
 
 ### *Homogeneity of variances*
 
-[id8]: ## "Uji homogeneity of variances pada Ancova adalah pemeriksaan terkait apakah variabilitas residu dari model regresi seragam di semua tingkat variabel bebas kategorikal."
+[id8]: ## "Uji asumsi homogeneity of variances pada Ancova adalah pemeriksaan terkait apakah variabilitas residu dari model regresi seragam di semua tingkat variabel bebas kategorikal."
 
 Uji asumsi yang ke-5 adalah [*homogeneity of variances*][id8]. Uji asumsi ini bertujuan untuk memastikan bahwa variabilitas dari residu regresi seragam di seluruh kelompok perlakuan. Homogenitas varian merupakan asumsi kritis yang perlu dipenuhi agar hasil analisis ANCOVA dapat diandalkan. Jika terdapat perbedaan yang signifikan dalam variabilitas antar kelompok perlakuan, hal ini dapat mempengaruhi validitas interpretasi hasil dan kesimpulan yang diambil dari analisis tersebut. Oleh karena itu, uji ini bertujuan untuk memverifikasi apakah homogenitas varian dapat diasumsikan, sehingga memastikan keabsahan hasil analisis ANCOVA. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
