@@ -30,7 +30,7 @@ Diketahui variabel bebas VLEs terdiri dari 3 kelompok yakni VLE1, VLE2, dan VLE3
 
 Dalam hal ini, peneliti ingin menemukan pengaruh dari Virtual Learning Environments (VLEs) terhadap prestasi belajar peserta didik (PB). Apabila ada pengaruh, peneliti juga ingin menemukan apakah covariate merupakan sebuah variabel penting dalam menentukan pengaruh. Selain itu, peneliti juga dapat menemukan perbedaan antara ketiga jenis variabel bebas (VLE1, VLE2, dan VLE3) menggunakan perhitungan EMM dan Bonferroni post-hoc test.
 
-Adapun uji asumsi yang terlebih dahulu dilakukan sebelum ke proses Ancova adalah uji asumsi *ouliers*, *linearity*, *homogeneity of regression slopes*, *normality of residuals*, dan *homogeneity of variances*.
+Adapun uji asumsi yang terlebih dahulu dilakukan sebelum ke proses Ancova adalah uji asumsi *outliers*, *linearity*, *homogeneity of regression slopes*, *normality of residuals*, dan *homogeneity of variances*.
 
 ## Hasil perhitungan menggunakan Python, R, dan SPSS
 
