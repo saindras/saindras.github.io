@@ -26,7 +26,7 @@ Seorang peneliti ingin mengetahui pengaruh dari suatu [Virtual Learning Environm
 
 Sampai di sini, kita mengetahui ada 3 kelas dalam penelitian tersebut. Kelas ke-1 dinamakan VLE1 (VLEs dengan suplemen video), kelas ke-2 dinamakan VLE2 (VLEs dengan suplemen Cisco-PT), dan kelas ke-3 dinamakan VLE3 (VLEs dengan suplemen Vilanets). Kelas-kelas tersebut nantinya akan menjadi kelompok/dimensi di dalam variabel bebas Ancova. Jika menggunakan 3 kelas (atau lebih), maka akan ada kemungkinan perhitungan akan dilanjutkan ke post-hoc test ketika terdapat pengaruh antara VLEs dan prestasi belajar.
 
-Karena ini adalah penelitian kuantitatif di mana tujuannya adalah menguji teori, teori baru yang diajukan harus dikontruksi. Misalnya, peneliti ingin menguji teori VLEs. Oleh karena itu, disarankan ada teori baru turunan dari VLEs. Peneliti mengajukan teori bernama Advanced VLEs. Apabila dikaitkan dengan 3 kelas sebelumnya, dikontruksi teori sebagai berikut. VLE1 mewakili teori `Beginner VLEs`, VLE2 mewakili teori `Intermediate VLEs`, dan VLE3 mewakili teori `Advanced VLEs`.
+Karena ini adalah penelitian kuantitatif di mana tujuannya adalah menguji teori, teori baru yang diajukan harus dikonstruksi. Misalnya, peneliti ingin menguji teori VLEs. Oleh karena itu, disarankan ada teori baru turunan dari VLEs. Peneliti mengajukan teori bernama Advanced VLEs. Apabila dikaitkan dengan 3 kelas sebelumnya, dikonstruksi teori sebagai berikut. VLE1 mewakili teori `Beginner VLEs`, VLE2 mewakili teori `Intermediate VLEs`, dan VLE3 mewakili teori `Advanced VLEs`.
 
 ## Contoh tujuan penelitian
 
@@ -45,7 +45,7 @@ Variabel-variabel penelitiannya adalah sebagai berikut.
 
 ## Diagram konstelasi dan hipotesis penelitian
 
-Diagram konstelasi menunjukkan hubungan antar variabel, seperti pada Gambar 1. Hubungan tersebut memandu peneliti untuk menentukan hipotesis-hipotesis penelitian dalam rangka tercapainya tujuan-tujuan penelitan.
+Diagram konstelasi menunjukkan hubungan antar variabel, seperti pada Gambar 1. Hubungan tersebut memandu peneliti untuk menentukan hipotesis-hipotesis penelitian dalam rangka tercapainya tujuan-tujuan penelitian.
 
 ![Diagram konstelasi light](1Flwpoxk-rumUw5Au4j49njcV2e8sqx5E){: .light .w-75 }
 ![Diagram konstelasi dark](1Fluuseg7U94KWkKTHBzwY7ZlfUpgGBT4){: .dark .w-75 }
@@ -102,9 +102,9 @@ Terdapat dua jenis [uji asumsi][id3] sebelum melakukan perhitungan Ancova yakni 
 
 ### *Outliers*
 
-[id4]: ## "Uji asumsi outliers adalah pemeriksaan terhadap data terkait ada atua tidaknya observasi yang secara signifikan berbeda dari pola umum dalam data Anda. Outlier dapat mempengaruhi hasil analisis dan memeriksa asumsi tentang distribusi normalitas dan homogenitas varians."
+[id4]: ## "Uji asumsi outliers adalah pemeriksaan terhadap data terkait ada atau tidaknya observasi yang secara signifikan berbeda dari pola umum dalam data Anda. Outliers mempengaruhi hasil analisis dan memeriksa asumsi tentang distribusi normalitas dan homogenitas varians."
 
-Uji asumsi yang pertama adalah [*outliers*][id4]. Uji asumsi *outliers* berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. *Outliers* dapat memengaruhi kehandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika ada outlier, distribusi data dapat menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. *Outliers* juga dapat menyebabkan ketidakhomogenan varians antar kelompok, yang dapat menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi *outliers*, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi *outliers* merupakan langkah penting dalam memastikan validitas dan kehandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
+Uji asumsi yang pertama adalah [*outliers*][id4]. Uji asumsi *outliers* berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. *Outliers* memengaruhi keandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika terdapat *outliers*, distribusi data menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. *Outliers* juga menyebabkan ketidakhomogenan varians antar kelompok, yang menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi *outliers*, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi *outliers* merupakan langkah penting dalam memastikan validitas dan keandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
 #### Prosedur input
 
@@ -135,7 +135,7 @@ Uji asumsi yang pertama adalah [*outliers*][id4]. Uji asumsi *outliers* berfungs
 
 #### Interpretasi hasil
 
-Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai Absolute Studentized Residual (ABS_SRE) = 2. Data ini bukanlah outlier, karena data yang mengandung outlier adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3)[^footnote]. Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi.
+Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai Absolute Studentized Residual (ABS_SRE) = 2. Data ini bukanlah *outlier*, karena data yang mengandung *outlier* adalah ketika nilai ABS_SRE lebih besar dari 3 (SRE > 3)[^footnote]. Simpulannya, data tidak mengandung outlier sehingga asumsi ini terpenuhi.
 
 > Bagaimana jika terdapat *outlier*? Kita akan bahas pada tulisan selanjutnya.
 {: .prompt-tip }
@@ -149,13 +149,13 @@ Uji asumsi yang ke-2 adalah [*linearity*][id5]. Uji asumsi linearity bertujuan u
 #### Prosedur input
 
 1. Masuk ke menu SPSS `Analyze > Regression > Linear`. Pada jendela `Linear Regression`, sesuaikan isiannya sebagai berikut.
-   1. Dependent: `postest`.
+   1. Dependent: `posttest`.
    2. Independent(s): `pretest`.
 2. Cek pada bagian model regresi dengan menekan tombol `Model`. Pastikan `Specify Model` adalah `Full factorial`. Klik tombol `Continue`.
 3. Klik tombol `OK`. Akan muncul hasilnya pada jendela `output`. Fokus pada tabel `Model Summary` dan `Coefficients`.
 4. Untuk menghasilkan grafik linearitas antar variabel, masuk ke menu `Graphs > Legacy Dialogs > Scatter/Dot`.
 5. Pilih `Simple Scatter`, kemudian klik tombol `Define`. Pada jendela `Simple Scatterplot`, sesuaikan isiannya sebagai berikut.
-   1. Y Axis: `postest`.
+   1. Y Axis: `posttest`.
    2. X Axis: `pretest`.
 6. Klik tombol `OK`, akan muncul hasil berupa *scatter plot* pada jendela `output`.
 7. Untuk memunculkan garis linear di gambar *scatter plot*, pada jendela `output`, klik 2 kali di gambar *scatter plot* untuk memunculkan jendela `Chart Editor` kemudian klik tombol `Add Fit Line at Total` yang terletak pada menu bar di atas gambar, akan muncul jendela `Properties`.
@@ -181,7 +181,7 @@ Uji asumsi yang ke-2 adalah [*linearity*][id5]. Uji asumsi linearity bertujuan u
 
 Pada tabel `Model Summary`, terlihat bahwa nilai *R<sup>2</sup>* = 0,612 yang artinya model linier dinilai cukup baik untuk memperkirakan pengaruh dengan persentasenya sebesar 61,2%. Pada tabel `Coefficients`, terlihat bahwa nilai koefisien sebesar 0,722 dengan *Sig.* sebesar 0,00. Jika nilai koefisien tidak nol dan *Sig.* kurang dari 0,05, maka terdapat hubungan linier antara kovariat dan variabel terikat[^fn-nth-2]. Oleh karena itu, uji asumsi linearity terpenuhi.
 
-Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar acak. Data pada *scatter plot* yang telihat acak (tidak membentuk pola tertentu) menandakan hubungan antara kovariat dan variabel terikat adalah linear[^fn-nth-3].
+Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar acak. Data pada *scatter plot* yang terlihat acak (tidak membentuk pola tertentu) menandakan hubungan antara kovariat dan variabel terikat adalah linear[^fn-nth-3].
 
 > Bagaimana jika data tidak linier atau uji asumsi *linearity* tidak terpenuhi? Kita akan bahas pada tulisan selanjutnya.
 {: .prompt-tip }
@@ -190,7 +190,7 @@ Hal ini diperjelas dengan gambar *scatter plot*, di mana terlihat data tersebar 
 
 [id6]: ## "Uji asumsi homogeneity of regression slopes pada Ancova digunakan untuk memeriksa apakah hubungan antara variabel kovariat dan variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan."
 
-Uji asumsi yang ke-3 adalah [*Homogeneity of regression slopes*][id6]. Uji asumsi ini bertujuan untuk untuk memastikan bahwa pengaruh variabel kovariat terhadap variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan yang berbeda. Jika hubungan tersebut tidak seragam, ini dapat menunjukkan bahwa efek kovariat bervariasi di antara kelompok perlakuan, yang dapat mengancam validitas analisis Ancova. Oleh karena itu, uji ini membantu memastikan bahwa asumsi homogenitas regresi terpenuhi sebelum melanjutkan analisis Ancova. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
+Uji asumsi yang ke-3 adalah [*Homogeneity of regression slopes*][id6]. Uji asumsi ini bertujuan untuk memastikan bahwa pengaruh variabel kovariat terhadap variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan yang berbeda. Jika hubungan tersebut tidak seragam, ini dapat menunjukkan bahwa efek kovariat bervariasi di antara kelompok perlakuan, yang dapat mengancam validitas analisis Ancova. Oleh karena itu, uji ini membantu memastikan bahwa asumsi homogenitas regresi terpenuhi sebelum melanjutkan analisis Ancova. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
 #### Prosedur input
 
@@ -208,7 +208,7 @@ Uji asumsi yang ke-3 adalah [*Homogeneity of regression slopes*][id6]. Uji asums
 5. Klik tombol `OK`, akan muncul hasil berupa tabel `Tests of Between-Subjects Effects` pada jendela `output`.
 6. Untuk menghasilkan grafik linearitas antar variabel, masuk ke menu `Graphs > Legacy Dialogs > Scatter/Dot`.
 7. Pilih `Simple Scatter`, kemudian klik tombol `Define`. Pada jendela `Simple Scatterplot`, sesuaikan isiannya sebagai berikut.
-   1. Y Axis: `postest`.
+   1. Y Axis: `posttest`.
    2. X Axis: `pretest`.
    3. Set Markers by: `VLEs`.
 8. Klik tombol `OK`, akan muncul hasil berupa *scatter plot* pada jendela `output`.
@@ -270,7 +270,7 @@ Uji asumsi yang ke-4 adalah [*normality of residuals*][id7]. Uji asumsi ini bert
       1. Descriptive: `Steam-and-leaf` (hilangkan centang).
       2. Descriptive: `Histogram` (centang).
       3. Centang pada bagian `Normality plots with tests`.
-8. Klik tombol `Continue`, kemudian klik tombol `OK`. Hasil akan muncul pada jendela `output` berupa gambar hostogram dan tabel `Tests of Normality`.
+8. Klik tombol `Continue`, kemudian klik tombol `OK`. Hasil akan muncul pada jendela `output` berupa gambar histogram dan tabel `Tests of Normality`.
 9. Pada jendela `output`, klik 2x pada gambar histogram, akan muncul jendela `Chart Editor`.
 10. Pada jendela `Chart Editor` klik menu `Show Distribution Curve`, akan muncul jendela `Properties`. Pastikan pilihan pada kotak `Curves` adalah `Normal`. Setelah itu tekan tombol `Close` dan tutup jendela `Chart Editor`. Kita akan melihat gambar histogram pada jendela `output` dilengkapi dengan garis kurva normal.
 
