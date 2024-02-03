@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 gem 'eventmachine', '~> 1.2', '>= 1.2.7'
-gem "jekyll-theme-chirpy", "~> 6.3.1"
+gem "jekyll-theme-chirpy", "~> 6.4.2"
 gem 'rake'
 
 group :test do
