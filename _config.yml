@@ -70,7 +70,7 @@ theme_mode: # [light|dark]
 #
 # e.g. 'https://cdn.com'
 #img_cdn: https://ucarecdn.com
-img_cdn: https://lh3.google.com/u/0/d
+img_cdn: https://lh3.googleusercontent.com/d
 
 # the avatar on sidebar, support local or CORS resources
 #avatar: /de5254d3-297f-436f-9076-3d5b99baeab3/
