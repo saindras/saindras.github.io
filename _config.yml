@@ -74,7 +74,8 @@ img_cdn: https://lh3.googleusercontent.com/d
 
 # the avatar on sidebar, support local or CORS resources
 #avatar: /de5254d3-297f-436f-9076-3d5b99baeab3/
-avatar: 1FeusQsZhfPfsCvvGIJciX_Hp3isVIDgm
+#avatar: 1FeusQsZhfPfsCvvGIJciX_Hp3isVIDgm
+avatar: 1U5Z8zAgS4voM2Jb_AwxvCk1RmGZWK8s6
 
 # boolean type, the global switch for TOC in posts.
 toc: true
