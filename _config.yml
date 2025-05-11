@@ -1,7 +1,7 @@
 # The Site Configuration
 
 # Import the theme
-theme: jekyll-theme-chirpy
+theme: cotes2020/jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
@@ -92,9 +92,9 @@ comments:
   # Giscus options › https://giscus.app
   giscus:
     repo: saindras/saindras.github.io # <gh-username>/<repo>
-    repo_id: 'R_kgDOKqUmEA'
-    category: 'General'
-    category_id: 'DIC_kwDOKqUmEM4Caywy'
+    repo_id: "R_kgDOKqUmEA"
+    category: "General"
+    category_id: "DIC_kwDOKqUmEM4Caywy"
     mapping: # optional, default to 'pathname'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
