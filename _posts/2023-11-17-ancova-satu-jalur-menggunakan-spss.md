@@ -10,17 +10,17 @@ tags:
 date: 2023-11-17 10:35 +0700
 ---
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10219479.svg)](https://doi.org/10.5281/zenodo.10219479){:target="blank"}
+[![DOI badge - Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10219479.svg)](https://doi.org/10.5281/zenodo.10219479){:target="blank"}
 
 ## Pendahuluan
 
 Pada tulisan sebelumnya terkait [Analysis of Covariance (Ancova)](https://saindras.github.io/posts/analysis-of-covariance-ancova/){:target="\_blank"}, telah dijelaskan bahwa Ancova merupakan salah satu metode statistik gabungan dari Anova dan Regresi untuk membandingkan rata-rata antara dua atau lebih kelompok dengan mempertimbangkan pengaruh variabel bebas yang disebut sebagai covariate. Salah satu tool statistik yang dapat digunakan untuk melakukan perhitungan Ancova adalah [Statistical Package for the Social Sciences (SPSS)][id1] versi 25.
 
-[id1]: ## "SPSS merupakan perangkat lunak statistik yang digunakan untuk analisis data. Dikembangkan oleh IBM, SPSS menyediakan fitur manajemen data, analisis statistik deskriptif, uji hipotesis, analisis regresi, analisis faktor, visualisasi data, dan pembuatan laporan. Digunakan di berbagai bidang, SPSS membantu dalam pengambilan keputusan berdasarkan analisis statistik."
+
 
 ## Contoh deskripsi penelitian
 
-[id2]: ## "Virtual Learning Environments (VLEs) adalah platform pembelajaran online yang memfasilitasi akses terstruktur ke materi pembelajaran dan interaksi antar peserta didik. Dengan fitur-fitur interaktif, evaluasi online, dan kemampuan kolaborasi, VLEs menjadi kunci dalam mendukung pembelajaran jarak jauh. Contohnya termasuk Moodle, Blackboard, dan Canvas."
+
 
 Seorang peneliti ingin mengetahui pengaruh dari suatu [Virtual Learning Environments (VLEs)][id2] terhadap prestasi belajar peserta didik pada mata kuliah Jaringan Komputer. Pengaruh tersebut dikontrol oleh suatu co-variabel _(covariate)_ pretest. Oleh karena itu, peneliti merancang suatu penelitian eksperimen semu (_quasi-experiment_) dengan melibatkan kelas kontrol dan kelas eksperimen. Kelas kontrol adalah kelas yang menggunakan Virtual Learning Environments existing, contohnya menggunakan Moodle dengan suplemen video pembelajaran dan simulator Cisco-PT. Sedangkan, kelas eksperimen menggunakan Moodle dan media pembelajaran inovatif seperti Virtual Lab Network Simulation (Vilanets).
 
@@ -79,26 +79,28 @@ Download dataset:
 > Dataset tersebut telah dipublikasi dan dilindungi hak cipta. Silakan digunakan sebagaimana mestinya dengan tetap melakukan sitasi apabila digunakan.
 > {: .prompt-warning }
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat contoh tampilan inisiasi data pada SPSS.</summary>
   
-  <img src="1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-">
+  <img alt="contoh tampilan inisiasi data pada SPSS" src="1FLLMP0kCMeB20bDE5dp3sRs46uncPO6-"/>
 
 </details>
+</section>
 
 ## Uji asumsi
 
-[id9]: ## "Pada contoh penelitian, tipe data yang digunakan pada variabel bebas adalah kategorikal dengan tiga kategori/kelompok/dimensi/faktor. Sedangkan tipe data variabel terikat dan co-variabel adalah numerikal dengan skala 0 sampai dengan 100."
-[id10]: ## "Responden dalam tiap kelompok pada variabel bebas harus berbeda. Misalnya, kelompok VLE1 adalah peserta didik kelas XI-A, kelompok VLE2 adalah peserta didik kelas XI-B, dan kelompok VLE3 adalah peserta didik kelas XI-C."
-[id11]: ## "Proses penilaian pretest dan posttest harus berbeda dari segi waktu. Pretest sebagai co-variabel dilakukan pada awal pertemuan. Sedangkan posttest sebagai variabel terikat dilakukan di akhir pertemuan. Hal ini akan memberikan independensi antara co-variabel dan variabel terikat."
-[id12]: ## "Desain penelitian quasi-experimental pretest-posttest control group adalah suatu pendekatan penelitian yang mencoba untuk mengevaluasi efek dari suatu perlakuan atau intervensi tanpa adanya randomisasi penuh seperti pada desain eksperimen murni. Dalam desain ini, peneliti mengumpulkan data sebelum dan sesudah perlakuan dari kelompok perlakuan (yang menerima intervensi atau perlakuan) dan kelompok kontrol (yang tidak menerima intervensi)."
-[id3]: ## "Uji asumsi dilakukan untuk memastikan bahwa data penelitian memenuhi prasyarat yang diperlukan oleh analisis Ancova. Memeriksa asumsi-asumsi ini penting karena kesalahan dalam asumsi dapat mempengaruhi keandalan dan validitas hasil analisis Ancova. Jika data tidak memenuhi asumsi-asumsi tersebut, maka mungkin perlu mencari alternatif atau menerapkan transformasi data untuk memenuhi asumsi tersebut sebelum menggunakan Ancova."
+
+
+
+
+
 
 Terdapat dua jenis [uji asumsi][id3] sebelum melakukan perhitungan Ancova yakni asumsi dasar dan tambahan. Uji asumsi dasar meliputi [tipe data dari masing-masing variabel][id9], [observasi yang independen antar kelompok dalam variabel bebas][id10], dan [independensi antara co-variabel dan variabel terikat][id11]. Seluruh uji asumsi dasar akan terpenuhi apabila menggunakan desain penelitian [quasi-experimental pretest-posttest control group][id12]. Sedangkan uji asumsi tambahan dalam Ancova ada 5 yakni, uji asumsi _outliers_, _linearity_, _homogeneity of regression slopes_, _normality of residuals_, dan _homogeneity of variances_. Uji asumsi dasar dan uji asumsi tambahan wajib dipenuhi sebelum melakukan analisis Ancova guna mengurangi bias hasil penelitian. Berikut prosedur uji asumsi menggunakan SPSS terutama pada kelima uji asumsi tambahan.
 
 ### _Outliers_
 
-[id4]: ## "Uji asumsi outliers adalah pemeriksaan terhadap data terkait ada atau tidaknya observasi yang secara signifikan berbeda dari pola umum dalam data Anda. Outliers mempengaruhi hasil analisis dan memeriksa asumsi tentang distribusi normalitas dan homogenitas varians."
+
 
 Uji asumsi yang pertama adalah [_outliers_][id4]. Uji asumsi _outliers_ berfungsi untuk mengidentifikasi adanya nilai-nilai ekstrim dalam dataset. _Outliers_ memengaruhi keandalan hasil analisis Ancova, terutama terkait dengan dua asumsi utama: normalitas dan homogenitas varians. Jika terdapat _outliers_, distribusi data menjadi tidak normal, sehingga memengaruhi interpretasi statistik, termasuk uji Ancova. _Outliers_ juga menyebabkan ketidakhomogenan varians antar kelompok, yang menghasilkan kesalahan dalam penentuan signifikansi hasil. Dengan mendeteksi _outliers_, peneliti dapat mempertimbangkan tindakan korektif, seperti transformasi data atau penggunaan metode analisis yang lebih tahan terhadap ketidaknormalan atau ketidakhomogenan varians. Oleh karena itu, uji asumsi _outliers_ merupakan langkah penting dalam memastikan validitas dan keandalan hasil dari Ancova serta mendukung interpretasi yang akurat dari dampak variabel kovariat pada variabel terikat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -122,12 +124,14 @@ Uji asumsi yang pertama adalah [_outliers_][id4]. Uji asumsi _outliers_ berfungs
 
 #### Tampilan output
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output.</summary>
   
-  <img src="1G9ptFRtRJdqLnpjCv08YuDLCAaV7XCDG">
+  <img alt="output" src="1G9ptFRtRJdqLnpjCv08YuDLCAaV7XCDG"/>
 
 </details>
+</section>
 
 #### Interpretasi hasil
 
@@ -138,7 +142,7 @@ Pada boxplot, terlihat hanya ada 1 data yang muncul dengan nilai Absolute Studen
 
 ### _Linearity_
 
-[id5]: ## "Uji asumsi linearitas pada Ancova adalah langkah evaluasi untuk memastikan bahwa hubungan antara variabel kovariat dan variabel terikat bersifat linier."
+
 
 Uji asumsi yang ke-2 adalah [_linearity_][id5]. Uji asumsi linearity bertujuan untuk memeriksa apakah hubungan antara variabel kovariat dan variabel terikat bersifat linier. Asumsi ini penting karena Ancova mengasumsikan bahwa efek variabel kovariat terhadap variabel terikat adalah konstan melintasi semua tingkat variabel kovariat. Jika asumsi ini tidak terpenuhi, hasil Ancova mungkin tidak valid, dan interpretasi dampak variabel kovariat dapat menjadi meragukan. Uji linearitas melibatkan penilaian pola sebaran titik antara variabel kovariat dan variabel terikat, baik melalui metode grafis maupun uji statistik. Jika ditemukan pola non-linear, peneliti dapat mempertimbangkan transformasi data atau penggunaan metode analisis alternatif yang lebih sesuai. Memeriksa asumsi linearitas menjadi langkah kritis dalam memastikan keakuratan hasil Ancova serta mendukung kesimpulan yang valid terkait pengaruh variabel kovariat pada variabel terikat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -159,19 +163,23 @@ Uji asumsi yang ke-2 adalah [_linearity_][id5]. Uji asumsi linearity bertujuan u
 
 #### Tampilan output
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output tabel.</summary>
   
-  <img src="1Gh_Ghq0_CVMMm0X6632ltOsoL7tk9qC7">
+  <img alt="output tabel" src="1Gh_Ghq0_CVMMm0X6632ltOsoL7tk9qC7"/>
 
 </details>
+</section>
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output <i>scatter plot</i>.</summary>
   
-  <img src="1Gm3p-WcfLYXZNL16eIGyzyNsUdWSb70v">
+  <img alt="output scatter plot" src="1Gm3p-WcfLYXZNL16eIGyzyNsUdWSb70v"/>
 
 </details>
+</section>
 
 #### Interpretasi hasil
 
@@ -184,7 +192,7 @@ Hal ini diperjelas dengan gambar _scatter plot_, di mana terlihat data tersebar 
 
 ### _Homogeneity of regression slopes_
 
-[id6]: ## "Uji asumsi homogeneity of regression slopes pada Ancova digunakan untuk memeriksa apakah hubungan antara variabel kovariat dan variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan."
+
 
 Uji asumsi yang ke-3 adalah [_Homogeneity of regression slopes_][id6]. Uji asumsi ini bertujuan untuk memastikan bahwa pengaruh variabel kovariat terhadap variabel terikat memiliki kemiringan yang seragam di antara kelompok perlakuan yang berbeda. Jika hubungan tersebut tidak seragam, ini dapat menunjukkan bahwa efek kovariat bervariasi di antara kelompok perlakuan, yang dapat mengancam validitas analisis Ancova. Oleh karena itu, uji ini membantu memastikan bahwa asumsi homogenitas regresi terpenuhi sebelum melanjutkan analisis Ancova. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -211,28 +219,34 @@ Uji asumsi yang ke-3 adalah [_Homogeneity of regression slopes_][id6]. Uji asums
 9. Untuk memunculkan garis linear pada masing-masing kelompok variabel bebas di gambar _scatter plot_, pada jendela `output`, klik 2 kali di gambar _scatter plot_ untuk memunculkan jendela `Chart Editor` kemudian klik tombol `Add Fit Line at Subgroups` yang terletak pada menu bar di atas gambar, akan muncul jendela `Properties`.
 10. Pada jendela `Properties`, tab `Fit Line`, kotak `Fit Method`, pilih `Linear`. Kemudian klik tombol `Close`, dan tutup jendela `Chart Editor`. Akan muncul gambar _scatter plot_ berisikan garis linear dan nilai R<sup>2</sup> untuk masing-masing kelompok pada variabel bebas.
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat detail langkah nomor 2.</summary>
   
-  <img src="1HtEcVKyJOoc1l-e0r0lSCutEXpi8eEEi">
+  <img alt="detail langkah nomor 2" src="1HtEcVKyJOoc1l-e0r0lSCutEXpi8eEEi"/>
 
 </details>
+</section>
 
 #### Tampilan output
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output tabel.</summary>
   
-  <img src="1I01XHlL5c4SECdvbSm5z_kM_So2_OL5k">
+  <img alt="output tabel" src="1I01XHlL5c4SECdvbSm5z_kM_So2_OL5k"/>
 
 </details>
+</section>
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output <i>scatter plot</i>.</summary>
   
-  <img src="1I3pk56-p7HXbfyyeZb7cYMamh8Rj8mk8">
+  <img alt="output scatter plot" src="1I3pk56-p7HXbfyyeZb7cYMamh8Rj8mk8"/>
 
 </details>
+</section>
 
 #### Interpretasi hasil
 
@@ -245,7 +259,7 @@ Jika asumsi homogenitas lereng regresi terpenuhi, maka F-statistik yang dihasilk
 
 ### Normality of residuals
 
-[id7]: ## "Uji asumsi normality of residuals pada Ancova adalah pemeriksaan terkait sejauh mana residu dari model regresi memiliki distribusi normal. Hal ini penting karena analisis inferensial bergantung pada asumsi distribusi normal pada residu untuk hasil yang valid."
+
 
 Uji asumsi yang ke-4 adalah [_normality of residuals_][id7]. Uji asumsi ini bertujuan untuk memeriksa sejauh mana residu dari model regresi memiliki distribusi normal. Residu yang memiliki distribusi normal menunjukkan bahwa asumsi normalitas terpenuhi, sehingga hasil analisis Ancova dapat diandalkan. Normality of residuals menjadi penting karena analisis inferensial, seperti uji hipotesis dan interval kepercayaan, membutuhkan asumsi distribusi normal pada residu. Jika distribusi residu tidak normal, hal ini dapat memengaruhi validitas hasil dan interpretasi analisis Ancova. Oleh karena itu, uji normality of residuals membantu memastikan bahwa asumsi distribusi normal pada residu terpenuhi untuk hasil analisis yang lebih akurat. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -272,19 +286,23 @@ Uji asumsi yang ke-4 adalah [_normality of residuals_][id7]. Uji asumsi ini bert
 
 #### Tampilan output
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output tabel.</summary>
   
-  <img src="1IaZkRGjL8b1ykZbMDajgHmpXtwaLS2XH">
+  <img alt="output tabel" src="1IaZkRGjL8b1ykZbMDajgHmpXtwaLS2XH"/>
 
 </details>
+</section>
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output histogram dengan garis kurva normal.</summary>
   
-  <img src="1IcQFrtHX13mbEATFzvcLqFuPzzOMZzU9">
+  <img alt="output histogram dengan garis kurva normal" src="1IcQFrtHX13mbEATFzvcLqFuPzzOMZzU9"/>
 
 </details>
+</section>
 
 #### Interpretasi hasil
 
@@ -297,7 +315,7 @@ Terdapat banyak asumsi normalitas yang keliru _(miskonsepsi)_. Asumsi normalitas
 
 ### _Homogeneity of variances_
 
-[id8]: ## "Uji asumsi homogeneity of variances pada Ancova adalah pemeriksaan terkait apakah variabilitas residu dari model regresi seragam di semua tingkat variabel bebas kategorikal."
+
 
 Uji asumsi yang ke-5 adalah [_homogeneity of variances_][id8]. Uji asumsi ini bertujuan untuk memastikan bahwa variabilitas dari residu regresi seragam di seluruh kelompok perlakuan. Homogenitas varian merupakan asumsi kritis yang perlu dipenuhi agar hasil analisis Ancova dapat diandalkan. Jika terdapat perbedaan yang signifikan dalam variabilitas antar kelompok perlakuan, hal ini dapat mempengaruhi validitas interpretasi hasil dan kesimpulan yang diambil dari analisis tersebut. Oleh karena itu, uji ini bertujuan untuk memverifikasi apakah homogenitas varian dapat diasumsikan, sehingga memastikan keabsahan hasil analisis Ancova. Untuk melakukan uji asumsi ini pada SPSS, langkah-langkahnya adalah sebagai berikut.
 
@@ -312,12 +330,14 @@ Uji asumsi yang ke-5 adalah [_homogeneity of variances_][id8]. Uji asumsi ini be
 
 #### Tampilan output
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output tabel.</summary>
   
-  <img src="1If_PWBl16HnoT-g16fel76Mr_tvmZVTN">
+  <img alt="output tabel" src="1If_PWBl16HnoT-g16fel76Mr_tvmZVTN"/>
 
 </details>
+</section>
 
 #### Interpretasi hasil
 
@@ -356,43 +376,53 @@ Setelah semua uji asumsi terpenuhi, selanjutnya adalah melakukan perhitungan Anc
 7. Klik tombol `Continue`.
 8. Pada jendela `Univariate`, klik tombol `OK`. Hasil akan muncul pada jendela `output` berupa tabel `Tests of Between-Subjects Effects`, `Estimates`, dan `Pairwise Comparisons`, serta hasil berupa gambar plot terkait _Estimated Marginal Means of posttest_.
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat detail langkah nomor 4.</summary>
   
-  <img src="1J6HkacWhMs9f-XXoFh_qxZKrjFQOffTS">
+  <img alt="detail langkah nomor 4" src="1J6HkacWhMs9f-XXoFh_qxZKrjFQOffTS"/>
 
 </details>
+</section>
 
 ### Tampilan output
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output tabel Tests of Between-Subjects Effects.</summary>
   
-  <img src="1IppZ1vUv3kfHEKL3UkF5cegibNWduccu">
+  <img alt="tabel Tests of Between-Subjects Effects" src="1IppZ1vUv3kfHEKL3UkF5cegibNWduccu"/>
 
 </details>
+</section>
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output tabel Estimates.</summary>
   
-  <img src="1IqQDZLrn9sd3JOLXCfKwbLs7faQDkRxb">
+  <img alt="tabel Estimates" src="1IqQDZLrn9sd3JOLXCfKwbLs7faQDkRxb"/>
 
 </details>
+</section>
 
+<section class="details">
 <details>
   <summary>Klik di sini untuk melihat output tabel Pairwise Comparisons.</summary>
   
-  <img src="1It_0VA7gaoOjTd5phPYX-NX7zYtbUSBi">
+  <img alt="tabel Pairwise Comparisons" src="1It_0VA7gaoOjTd5phPYX-NX7zYtbUSBi"/>
 
 </details>
+</section>
 
+<section class="details">
 <details>
 
   <summary>Klik di sini untuk melihat output plot Estimated Marginal Means of posttest.</summary>
   
-  <img src="1ItzzCuLYvyo1PyobZAsUmOUul2qcH2gm">
+  <img alt="output plot Estimated Marginal Means of posttest" src="1ItzzCuLYvyo1PyobZAsUmOUul2qcH2gm"/>
 
 </details>
+</section>
 
 ### Interpretasi hasil
 
@@ -410,7 +440,7 @@ Pada tabel `Pairwise Comparisons`, terlihat bahwa perbedaan antara VLE3 dan VLE2
 
 Santyadiputra, G. S., Purnomo, & Juniantari, M. (2023, November 29). Ancova satu jalur menggunakan SPSS. GitHub. https://doi.org/10.5281/zenodo.10219479
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10219479.svg)](https://doi.org/10.5281/zenodo.10219479){:target="blank"}
+[![DOI badge - Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10219479.svg)](https://doi.org/10.5281/zenodo.10219479){:target="blank"}
 
 ## Referensi
 
