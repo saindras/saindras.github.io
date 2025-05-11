@@ -39,4 +39,4 @@ Raspberry Pi OS Lite + Docker + MQTT untuk menerima data secara lokal dan sinkro
 
 ---
 
-> Halaman ini dibangun dengan Jekyll + Chirpy, dan merupakan bagian dari dokumentasi riset pendidikan vokasi oleh Gede Saindra.
+> Halaman ini merupakan bagian dari dokumentasi riset Pendidikan Vokasional Keteknikan oleh Gede Saindra Santyadiputra.
