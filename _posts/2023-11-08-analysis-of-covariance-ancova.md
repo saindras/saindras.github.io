@@ -10,7 +10,7 @@ tags:
   - ancova
 ---
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10219354.svg)](https://doi.org/10.5281/zenodo.10219354){:target="\_blank"}
+[![DOI badge - Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10219354.svg)](https://doi.org/10.5281/zenodo.10219354){:target="\_blank"}
 
 ## Sekilas tentang Ancova
 
@@ -51,4 +51,4 @@ Santyadiputra, G. S., Purnomo, & Juniantari, M. (2023, November 29). Analysis of
 > Untuk sitasi lebih lanjut, silakan klik badge di bawah.
 > {: .prompt-info }
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10219354.svg)](https://doi.org/10.5281/zenodo.10219354){:target="\_blank"}
+[![DOI badge - Zenodo](https://zenodo.org/badge/DOI/10.5281/zenodo.10219354.svg)](https://doi.org/10.5281/zenodo.10219354){:target="\_blank"}
