@@ -1,1 +1,7 @@
-npx --no -- commitlint --edit $1
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Remove carriage return if present
+EDIT_FILE=$(echo "$1" | tr -d '\r')
+
+npx --no-install commitlint --edit "$EDIT_FILE"
