@@ -8,11 +8,11 @@ Dokumen ini merangkum langkah-langkah setup dan konfigurasi pengembangan blog be
 
 1. **Instalasi Tools**
 
-   * Node.js `>=18` (disarankan `v20` atau lebih baru)
-   * Git
-   * Ruby `3.3` (melalui GitHub Actions)
-   * Docker (jika ingin pakai container)
-   * VSCode + ekstensi Remote - Containers
+   - Node.js `>=18` (disarankan `v20` atau lebih baru)
+   - Git
+   - Ruby `3.3` (melalui GitHub Actions)
+   - Docker (jika ingin pakai container)
+   - VSCode + ekstensi Remote - Containers
 
 2. **Clone Repository**
 
@@ -132,22 +132,23 @@ Jika build gagal karena gambar tanpa `alt`, hapus atau beri komentar langkah ber
 
 Commit akan divalidasi menggunakan **Commitlint** dan **Conventional Commits**:
 
-* Contoh benar:
+- Contoh benar:
 
   ```
   feat: tambahkan fitur baru
   fix: perbaiki tampilan navbar di mobile
   chore: update dependensi dan konfigurasi husky
   ```
-* Commit yang tidak sesuai akan **digagalkan secara otomatis**.
+
+- Commit yang tidak sesuai akan **digagalkan secara otomatis**.
 
 ---
 
 ## 📝 Tips Tambahan
 
-* Gunakan command `git commit --no-verify` hanya jika yakin linting bisa diabaikan.
-* Gunakan `git status` untuk melihat file yang dimodifikasi (M) atau belum dilacak (U).
-* Jalankan ulang `npm install` jika file `package-lock.json` berubah atau workflow error.
+- Gunakan command `git commit --no-verify` hanya jika yakin linting bisa diabaikan.
+- Gunakan `git status` untuk melihat file yang dimodifikasi (M) atau belum dilacak (U).
+- Jalankan ulang `npm install` jika file `package-lock.json` berubah atau workflow error.
 
 ---
 
