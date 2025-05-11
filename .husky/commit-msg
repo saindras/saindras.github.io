@@ -1,7 +1,10 @@
-#!/bin/sh
-. "$(dirname "$0")/_/husky.sh"
+#!/usr/bin/env sh
 
-# Remove carriage return if present
-EDIT_FILE=$(echo "$1" | tr -d '\r')
+# Bypass commitlint for Dependabot or bots
+if grep -qiE 'dependabot|bot' "$1"; then
+  echo "⏭️  Skipping commitlint for bot commit."
+  exit 0
+fi
 
-npx --no-install commitlint --edit "$EDIT_FILE"
+# Run commitlint
+npx --no -- commitlint --edit "$1"
