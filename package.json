@@ -21,7 +21,9 @@
     "lint:scss": "stylelint _sass/**/*.scss",
     "lint:fix:scss": "npm run lint:scss -- --fix",
     "test": "npm run lint:scss",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format:md": "prettier --write '**/*.md'",
+    "lint:html": "htmlhint _site/**/*.html"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
@@ -47,7 +49,9 @@
     "rollup": "^4.27.4",
     "semantic-release": "^24.2.0",
     "stylelint": "^16.10.0",
-    "stylelint-config-standard-scss": "^13.1.0"
+    "stylelint-config-standard-scss": "^13.1.0",
+    "prettier": "^3.0.0",
+    "htmlhint": "^1.1.5"
   },
   "prettier": {
     "trailingComma": "none"
