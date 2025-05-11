@@ -1,15 +1,15 @@
-name: Lint Commit Messages
+name: Lint Commits
 
 on:
-  push:
-    branches:
-      - master
-      - "hotfix/*"
   pull_request:
+    types: [opened, synchronize, reopened]
 
 jobs:
-  commitlint:
+  lint-commits:
+    if: github.actor != 'dependabot[bot]'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: wagoid/commitlint-github-action@v6
+      - uses: actions/checkout@v3
+
+      - name: Lint commit messages
+        uses: wagoid/commitlint-github-action@v6
