@@ -13,6 +13,7 @@ Dokumentasi lengkap proyek **IoT Monitoring Suhu dan Kelembaban Akuarium (AQ01)*
 ESP8266/ESP32 membaca suhu & kelembaban melalui DHT11 dan DS18B20, menampilkan data di LCD I2C, serta mengirimkannya ke server lokal atau ThingSpeak.
 
 **Versi Kode:**
+
 - `CODE-AQ01-001`: LCD + pembacaan DHT22
 - `CODE-AQ01-002`: Kirim ke ThingSpeak
 - `CODE-AQ01-003`: Web dashboard ESP
@@ -23,6 +24,7 @@ ESP8266/ESP32 membaca suhu & kelembaban melalui DHT11 dan DS18B20, menampilkan d
 Dashboard berbasis PHP dan MySQL, menampilkan grafik dan ekspor data, menerima input dari perangkat IoT.
 
 **File penting:**
+
 - `index.php`
 - `upload.php`
 - `dashboard_thinkspeak.html`

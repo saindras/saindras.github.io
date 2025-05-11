@@ -29,3 +29,4 @@ Paragraf untuk bagian 2.
 ```python
 def halo():
     print("Halo Dunia")
+```
