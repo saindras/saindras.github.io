@@ -2,7 +2,7 @@
 layout: page
 title: IoT
 icon: fas fa-microchip
-order: 5
+order: 1
 ---
 
 Berikut dokumentasi proyek IoT AQ01:
