@@ -1,4 +1,5 @@
 ---
+layout: page
 title: IoT
 icon: fas fa-microchip
 order: 5
