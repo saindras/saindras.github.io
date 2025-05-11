@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Build Jekyll Site
 
 on:
   push:
@@ -7,12 +7,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -30,18 +24,5 @@ jobs:
           gem install bundler
           bundle install
 
-      - name: Build site with Jekyll
+      - name: Build Jekyll site
         run: bundle exec jekyll build
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_branch: gh-pages
-          publish_dir: ./_site
-          user_name: "Gede Saindra"
-          user_email: "gsaindras@undiksha.ac.id"
