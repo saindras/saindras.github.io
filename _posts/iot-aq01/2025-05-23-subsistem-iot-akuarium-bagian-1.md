@@ -50,13 +50,13 @@ Proyek ini mengikuti arsitektur IoT standar dengan komponen-komponen berikut:
 
 Untuk proyek ini, saya menggunakan:
 
-- **ESP8266** (NodeMCU v3 Amica Type C) sebagai pengontrol utama dengan WiFi bawaan [Link](https://id.shp.ee/oTK9G8f)
-- **DHT11** sensor untuk mengukur suhu dan kelembaban ruangan [Link](https://id.shp.ee/21CAyPk)
-- **DS18B20 waterproof** sensor untuk mengukur suhu air [Link](https://id.shp.ee/YXFuQdJ)
-- **Resistor 4.7k Ohm** 2 resistor pull-up untuk sensor-sensor [Link](https://id.shp.ee/GaZSBAG)
-- **LCD 1602** sebagai monitor output dengan ukuran 16x2, termasuk module i2C yang sudah tersolder [Link](https://id.shp.ee/1ncfa3o)
-- Breadboard 400 point untuk prototyping [Link](https://id.shp.ee/cK2DsDY)
-- Kabel jumper untuk prototyping, rekomendasi menggunakan kabel male to female [Link](https://id.shp.ee/izo9t2m)
+- **ESP8266** (NodeMCU v3 Amica Type C) sebagai pengontrol utama dengan WiFi bawaan [Link](https://id.shp.ee/oTK9G8f){:target="_blank"}
+- **DHT11** sensor untuk mengukur suhu dan kelembaban ruangan [Link](https://id.shp.ee/21CAyPk){:target="_blank"}
+- **DS18B20 waterproof** sensor untuk mengukur suhu air [Link](https://id.shp.ee/YXFuQdJ){:target="_blank"}
+- **Resistor 4.7k Ohm** 2 resistor pull-up untuk sensor-sensor [Link](https://id.shp.ee/GaZSBAG){:target="_blank"}
+- **LCD 1602** sebagai monitor output dengan ukuran 16x2, termasuk module i2C yang sudah tersolder [Link](https://id.shp.ee/1ncfa3o){:target="_blank"}
+- Breadboard 400 point untuk prototyping [Link](https://id.shp.ee/cK2DsDY){:target="_blank"}
+- Kabel jumper untuk prototyping, rekomendasi menggunakan kabel male to female [Link](https://id.shp.ee/izo9t2m){:target="_blank"}
 
 ## Mengapa Resistor 4.7k Ohm?
 
@@ -119,4 +119,4 @@ Setelah semua rancangan terpenuhi, langkah selanjutnya adalah mensimulasikan di 
 
 ## Referensi
 
-- [Dokumentasi NodeMCU ESP8266](https://www.make-it.ca/nodemcu-details-specifications/)
+- [Dokumentasi NodeMCU ESP8266](https://www.make-it.ca/nodemcu-details-specifications/){:target="_blank"}
