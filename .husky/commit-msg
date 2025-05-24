@@ -1,10 +1,8 @@
 #!/usr/bin/env sh
-
 # Bypass commitlint for Dependabot or bots
 if grep -qiE 'dependabot|bot' "$1"; then
-  echo "⏭️  Skipping commitlint for bot commit."
+  echo "Skipping commitlint for bot commit."
   exit 0
 fi
-
 # Run commitlint
 npx --no -- commitlint --edit "$1"
