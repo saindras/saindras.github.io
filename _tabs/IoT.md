@@ -8,3 +8,4 @@ order: 1
 Berikut dokumentasi proyek IoT AQ01:
 
 - [Dokumentasi Lengkap IoT AQ01](/posts/dokumentasi-iot-aq01/)
+- [Menentukan Perangkat Keras IoT](/posts/subsistem-iot-akuarium-bagian-1/)
