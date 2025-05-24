@@ -77,7 +77,7 @@ Resistor ini ditempatkan di antara pin data dan jalur daya (VCC), menciptakan sa
 
 Berikut cara menghubungkan semuanya:
 
-## Koneksi ESP8266
+### Koneksi ESP8266
 
 - Hubungkan ke sumber tegangan 5v menggunakan kabel USB (gunakan adaptor 5v): `Kabel USB ke adaptor 5v`
 - Hubungkan sumber tegangan 5v (Vin 5v) ke LCD: `kabel MERAH`
@@ -89,19 +89,19 @@ Berikut cara menghubungkan semuanya:
 - Hubungkan pin data LCD SDA ke D2 (GPIO4): `kabel KUNING`
 - Hubungkan pin data LCD SCL ke D1 (GPIO5): `kabel BIRU`
 
-## Koneksi DHT11
+### Koneksi DHT11
 
 - Pin 1 (VCC) ke ESP8266 3.3V melalui resistor 4.7k Ohm: `kabel MERAH`
 - Pin 2 (DATA) ke ESP8266 D5 (GPIO14) melalui resistor 4.7k Ohm: `kabel MAGENTA`
 - Pin 3 (GND) ke ESP8266 GND: `kabel HITAM`
 
-## Koneksi DS18B20
+### Koneksi DS18B20
 
 - Pin 1 (VCC) ke ESP8266 3.3V melalui resistor 4.7k Ohm: `kabel MERAH`
 - Pin 2 (DATA) ke ESP8266 D6 (GPIO12) melalui resistor 4.7k Ohm: `kabel HIJAU`
 - Pin 3 (GND) ke ESP8266 GND: `kabel HITAM`
 
-## Koneksi LCD
+### Koneksi LCD
 
 - Pin 1 (VCC) ke ESP8266 5V (Vin 5v): `kabel MERAH`
 - Pin 2 (SDA) ke ESP8266 D2 (GPIO4): `kabel KUNING`
