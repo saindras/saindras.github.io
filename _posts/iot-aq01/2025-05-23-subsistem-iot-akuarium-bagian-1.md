@@ -9,18 +9,20 @@ description: "Panduan langkah demi langkah membangun sistem IoT real-time untuk 
 
 # Pendahuluan
 
-Pernahkah Anda ingin memantau suhu dan kelembaban akuarium secara real-time? Dalam postingan ini, saya akan berbagi perjalanan saya membuat sistem IoT yang memantau parameter-parameter tersebut dan menampilkannya pada dashboard web. Proyek ini kita namakan "AQ1" yaitu pemantauan suhu dan kelembaban pada akuarium.
+Pernahkah Anda ingin memantau suhu dan kelembaban akuarium secara real-time? Dalam postingan ini, saya akan berbagi perjalanan saya membuat sistem IoT yang memantau parameter-parameter tersebut dan menampilkannya pada dashboard web. Proyek ini kita namakan `AQ1` yaitu pemantauan suhu dan kelembaban pada akuarium.
 
-Halaman ini adalah bagian dari proyek AQ1 khusus pada subsistem IoT. Subsistem ini memiliki fungsi utama yaitu mengambil data suhu dalam akuarium, suhu luar akuarium, kelembaban luar akuarium, dan waktu pengambilan. Perangkat akan mengirimkan semua data ke server melalui media transmisi wireless.
+Halaman ini adalah bagian dari proyek `AQ1` khusus pada subsistem IoT. Subsistem ini memiliki fungsi utama yaitu mengambil data suhu dalam akuarium, suhu luar akuarium, kelembaban luar akuarium, dan waktu pengambilan. Perangkat akan mengirimkan semua data ke server melalui media transmisi wireless.
 
 <section class="details">
 <details>
   <summary>Klik di sini untuk melihat ilustrasi sistem.</summary>
-
+  
   <img alt="output" src="1SB0dHQb4kS_Qw5DdKjBNhzNCbvP1dHVx"/>
 
 </details>
 </section>
+
+<br>
 
 Proyek ini akan dibagi menjadi beberapa topik yaitu:
 
@@ -31,8 +33,8 @@ Proyek ini akan dibagi menjadi beberapa topik yaitu:
 
 Sistem ini mengumpulkan:
 
-- Suhu air (menggunakan sensor DS18B20)
-- Suhu dan kelembaban ruangan (menggunakan sensor DHT11)
+- Suhu air (menggunakan sensor `DS18B20`)
+- Suhu dan kelembaban ruangan (menggunakan sensor `DHT11`)
 - Timestamp untuk setiap pembacaan
 
 Data dikumpulkan setiap 30 detik dan dikirim ke database cloud, sehingga dapat diakses dari mana saja melalui antarmuka web.
@@ -77,34 +79,34 @@ Berikut cara menghubungkan semuanya:
 
 ## Koneksi ESP8266:
 
-- Hubungkan ke sumber tegangan 5v menggunakan kabel USB (gunakan adaptor 5v): Kabel USB ke adaptor 5v
-- Hubungkan sumber tegangan 5v (Vin 5v) ke LCD: kabel MERAH
-- Hubungkan sumber tegangan 3.3v (3v3) ke DHT11 melalui resistor 4.7k Ohm: kabel MERAH
-- Hubungkan sumber tegangan 3.3v (3v3) ke DS18B20 melalui resistor 4.7k Ohm: kabel MERAH
-- Hubungkan ground (GND) ke LCD, DHT11, dan DS18B20: kabel HITAM
-- Hubungkan pin data DHT11 ke D5 (GPIO14) melalui resistor 4.7k Ohm: kabel MAGENTA
-- Hubungkan pin data DS18B20 ke D6 (GPIO12) melalui resistor 4.7k Ohm: kabel HIJAU
-- Hubungkan pin data LCD SDA ke D2 (GPIO4): kabel KUNING
-- Hubungkan pin data LCD SCL ke D1 (GPIO5): kabel BIRU
+- Hubungkan ke sumber tegangan 5v menggunakan kabel USB (gunakan adaptor 5v): `Kabel USB ke adaptor 5v`
+- Hubungkan sumber tegangan 5v (Vin 5v) ke LCD: `kabel MERAH`
+- Hubungkan sumber tegangan 3.3v (3v3) ke DHT11 melalui resistor 4.7k Ohm: `kabel MERAH`
+- Hubungkan sumber tegangan 3.3v (3v3) ke DS18B20 melalui resistor 4.7k Ohm: `kabel MERAH`
+- Hubungkan ground (GND) ke LCD, DHT11, dan DS18B20: `kabel HITAM`
+- Hubungkan pin data DHT11 ke D5 (GPIO14) melalui resistor 4.7k Ohm: `kabel MAGENTA`
+- Hubungkan pin data DS18B20 ke D6 (GPIO12) melalui resistor 4.7k Ohm: `kabel HIJAU`
+- Hubungkan pin data LCD SDA ke D2 (GPIO4): `kabel KUNING`
+- Hubungkan pin data LCD SCL ke D1 (GPIO5): `kabel BIRU`
 
 ## Koneksi DHT11:
 
-- Pin 1 (VCC) ke ESP8266 3.3V melalui resistor 4.7k Ohm: kabel MERAH
-- Pin 2 (DATA) ke ESP8266 D5 (GPIO14) melalui resistor 4.7k Ohm: kabel MAGENTA
-- Pin 3 (GND) ke ESP8266 GND: kabel HITAM
+- Pin 1 (VCC) ke ESP8266 3.3V melalui resistor 4.7k Ohm: `kabel MERAH`
+- Pin 2 (DATA) ke ESP8266 D5 (GPIO14) melalui resistor 4.7k Ohm: `kabel MAGENTA`
+- Pin 3 (GND) ke ESP8266 GND: `kabel HITAM`
 
 ## Koneksi DS18B20:
 
-- Pin 1 (VCC) ke ESP8266 3.3V melalui resistor 4.7k Ohm: kabel MERAH
-- Pin 2 (DATA) ke ESP8266 D6 (GPIO12) melalui resistor 4.7k Ohm: kabel HIJAU
-- Pin 3 (GND) ke ESP8266 GND: kabel HITAM
+- Pin 1 (VCC) ke ESP8266 3.3V melalui resistor 4.7k Ohm: `kabel MERAH`
+- Pin 2 (DATA) ke ESP8266 D6 (GPIO12) melalui resistor 4.7k Ohm: `kabel HIJAU`
+- Pin 3 (GND) ke ESP8266 GND: `kabel HITAM`
 
 ## Koneksi LCD:
 
-- Pin 1 (VCC) ke ESP8266 5V (Vin 5v): kabel MERAH
-- Pin 2 (SDA) ke ESP8266 D2 (GPIO4): kabel KUNING
-- Pin 3 (SCL) ke ESP8266 D1 (GPIO5): kabel BIRU
-- Pin 4 (GND) ke ESP8266 GND: kabel HITAM
+- Pin 1 (VCC) ke ESP8266 5V (Vin 5v): `kabel MERAH`
+- Pin 2 (SDA) ke ESP8266 D2 (GPIO4): `kabel KUNING`
+- Pin 3 (SCL) ke ESP8266 D1 (GPIO5): `kabel BIRU`
+- Pin 4 (GND) ke ESP8266 GND: `kabel HITAM`
 
 <section class="details">
 <details>
@@ -114,6 +116,8 @@ Berikut cara menghubungkan semuanya:
 
 </details>
 </section>
+
+<br>
 
 Setelah semua rancangan terpenuhi, langkah selanjutnya adalah mensimulasikan di Wokwi.
 
