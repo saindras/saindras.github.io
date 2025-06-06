@@ -178,7 +178,7 @@ void loop() {
 
 Berikut adalah kode yang digunakan untuk mendeklarasikan pustaka (library) eksternal Arduino yang ingin digunakan dalam proyek:
 
-```yaml
+```txt
 # Wokwi Library List
 # See https://docs.wokwi.com/guides/libraries
 
@@ -186,7 +186,6 @@ DHT sensor library
 LiquidCrystal I2C
 OneWire
 DallasTemperature
-
 ```
 
 ## Kode Program `diagram.json`
