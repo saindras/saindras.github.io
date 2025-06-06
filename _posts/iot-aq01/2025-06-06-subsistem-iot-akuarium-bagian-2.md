@@ -178,7 +178,7 @@ void loop() {
 
 Berikut adalah kode yang digunakan untuk mendeklarasikan pustaka (library) eksternal Arduino yang ingin digunakan dalam proyek:
 
-```txt
+```yaml
 # Wokwi Library List
 # See https://docs.wokwi.com/guides/libraries
 
