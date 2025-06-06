@@ -37,8 +37,8 @@ Wokwi adalah simulator IoT online yang mendukung berbagai mikrokontroler seperti
 ## Langkah-langkah Wokwi Online
 
 Kita akan menggunakan **KODE PROGRAM CONTOH** sebagai contoh dasar simulasi.
-1.  Silakan registrasi akun di [wokwi.com](https://wokwi.com), dengan menekan tombol `SIGN UP`
-2.  Buat proyek baru dengan menekan tombol `NEW PROJECT`
+1.  Silakan registrasi akun di [wokwi.com](https://wokwi.com), dengan menekan tombol `SIGN UP`.
+2.  Buat proyek baru dengan menekan tombol `NEW PROJECT`.
 3.  Pilih template `ESP32 (Arduino)`. Meskipun perangkat fisik kita nanti ESP8266, ESP32 di Wokwi menawarkan simulasi yang lebih kaya, dan kode Arduino-nya sebagian besar kompatibel.
 4.  Tambahkan library pada **Library Manager** seperti: `DHT sensor library`, `LiquidCrystal I2C`, `OneWire`, dan `DallasTemperature`.
 5.  Gunakan kode `sketch.ino`, `libraries.txt`, dan `diagram.json` yang saya sediakan.
