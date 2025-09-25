@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Era Baru Pendidikan Kejuruan: Mengapa Kursus Singkat Kini Lebih Diminati Daripada Gelar Jangka Panjang?"
+title: "Era Baru Pendidikan Kejuruan: Mengapa kursus singkat kini lebih diminati daripada gelar jangka panjang?"
 date: 2025-09-25 15:00:00 +0800
 categories: [Mikrokredensial]
-tags: [kredensialmikro, penelitian]
-description: "Laporan penelitian NCVER tentang kredensial mikro di Australia."
+tags: [kredensialmikro, penelitian, NCVER]
+description: "Laporan penelitian NCVER Australia tentang pergeseran besar dalam lanskap pendidikan kejuruan (VET)."
 ---
 
 ## Pendahuluan
@@ -48,4 +48,4 @@ Pada akhirnya, program kualifikasi jangka panjang tidak akan hilang. Program ter
 
 ## Referensi
 
-- [DStudents enrolled in nationally recognised training continue to grow](https://www.ncver.edu.au/news-and-events/media-releases/students-enrolled-in-nationally-recognised-training-continue-to-grow){:target="_blank"}
+- [Students enrolled in nationally recognised training continue to grow](https://www.ncver.edu.au/news-and-events/media-releases/students-enrolled-in-nationally-recognised-training-continue-to-grow){:target="_blank"}
