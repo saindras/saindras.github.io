@@ -119,7 +119,7 @@ Berikut cara menghubungkan semuanya:
 
 <br>
 
-Setelah semua rancangan terpenuhi, langkah selanjutnya adalah mensimulasikan di Wokwi.
+Setelah semua rancangan terpenuhi, langkah selanjutnya adalah [mensimulasikan di Wokwi](/posts/subsistem-iot-akuarium-bagian-2/).
 
 ## Referensi
 
