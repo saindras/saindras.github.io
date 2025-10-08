@@ -6,15 +6,8 @@ categories: [Pendidikan Vokasional, Analisis Data]
 tags: [vokasional, tren industri]
 description: "Laporan penelitian NCVER Australia tentang kondisi magang dan pelatihan Tahun 2025."
 ---
----
-title: "Membaca Peta Vokasi Global: Analisis Kritis Tren Magang Australia dan Arah Strategis untuk Indonesia"
-author: [Your Name]
-date: 2025-10-09 00:30:00 +0800
-categories: [Pendidikan Vokasi, Analisis Data]
-tags: [vokasi, australia, ncver, tren industri, smk, ketenagakerjaan, iot]
----
 
-Sebagai seorang jurnalis yang lama berkecimpung di dunia pendidikan vokasi dan teknologi, seringkali saya menemukan data statistik yang lebih dari sekadar angka—ia adalah sebuah narasi. Laporan terbaru dari **National Centre for Vocational Education Research (NCVER) Australia** mengenai data pemagangan dan pelatihan kuartal pertama 2025 adalah salah satu narasi tersebut. Di balik tabel dan grafik, tersimpan sebuah cerita tentang pergeseran fundamental kebutuhan industri global. Ini bukan lagi sekadar laporan untuk Australia; ini adalah cermin strategis yang harus kita manfaatkan untuk mematangkan arah pendidikan kejuruan di Indonesia.
+Sebagai seorang Dosen dan Peneliti yang berkecimpung di dunia pendidikan vokasi dan teknologi, seringkali saya menemukan data statistik yang lebih dari sekadar angka—ia adalah sebuah narasi. Laporan terbaru dari **National Centre for Vocational Education Research (NCVER) Australia** mengenai data pemagangan dan pelatihan kuartal pertama 2025 adalah salah satu narasi tersebut. Di balik tabel dan grafik, tersimpan sebuah cerita tentang pergeseran fundamental kebutuhan industri global. Ini bukan lagi sekadar laporan untuk Australia; ini adalah cermin strategis yang harus kita manfaatkan untuk mematangkan arah pendidikan kejuruan di Indonesia.
 
 #### **Potret Umum Lanskap Vokasi: Penurunan yang Menyimpan Cerita**
 
