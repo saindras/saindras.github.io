@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Membaca Peta Vokasi Global: Analisis Kritis Tren Magang Australia dan Arah Strategis untuk Indonesia"
-date: 2025-10-09 23:00:00 +0800
+date: 2025-10-08 23:00:00 +0800
 categories: [Pendidikan Vokasional, Analisis Data]
 tags: [vokasional, tren industri]
 description: "Laporan penelitian NCVER Australia tentang kondisi magang dan pelatihan Tahun 2025."
