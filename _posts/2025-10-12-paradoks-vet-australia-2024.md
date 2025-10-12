@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Paradoks VET Australia 2024: Euforia Pertumbuhan di Tengah Krisis Relevansi"
-date: 2025-10-12 23:00:00 +0800
+date: 2025-10-12 21:00:00 +0800
 categories: [Pendidikan Vokasional, Teknologi]
 tags: [pendidikan vokasional, tren industri]
 description: "Analisis tajam laporan VET in Schools 2024 Australia. Di balik rekor partisipasi siswa, tersembunyi jurang kesenjangan keterampilan digital yang krusial. Sebuah pelajaran penting bagi masa depan SMK di Indonesia."
