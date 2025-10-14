@@ -2,14 +2,14 @@
 layout: post
 title: "Revolusi Senyap Vokasional: Belajar dari 20 Tahun Perjalanan Eropa Menuju Pembelajaran Seumur Hidup"
 date: 2025-10-14 09:00:00 +0800
-categories: Pendidikan Vokasional, Kebijakan
+categories: [Pendidikan Vokasional, Kebijakan]
 tags: [pembelajaran-sepanjang-hayat, eropa, cedefop, smk, pendidikan-tinggi]
 description: "Sebuah telaah mendalam terhadap laporan Cedefop yang mengungkap transformasi pendidikan vokasional di Eropa selama dua dekade, serta implikasinya bagi masa depan sistem pendidikan di Indonesia."
 ---
 
 ## Pendahuluan
 
-Eropa telah melewati dua dekade penuh gejolak dalam mereformasi sistem pendidikannya. Sebuah laporan riset terbaru dari Pusat Pengembangan Pendidikan Vokasional Eropa (Cedefop) yang berjudul *Lifelong learning in 2000 and 2020: What has changed for the individual citizen?* menyajikan analisis tajam mengenai perjalanan panjang ini. Laporan ini bukan sekadar kumpulan data, melainkan sebuah narasi komprehensif tentang bagaimana benua tersebut berupaya membongkar "belenggu" sistem pendidikan tradisional demi mewujudkan konsep pembelajaran seumur hidup (*lifelong learning*). Dari perspektif seorang jurnalis yang mendalami dunia vokasional dan teknologi, laporan ini adalah sebuah cermin berharga, yang tidak hanya merefleksikan keberhasilan dan kegagalan Eropa, tetapi juga menyiratkan tantangan dan peluang besar bagi negara seperti Indonesia.
+Eropa telah melewati dua dekade penuh gejolak dalam mereformasi sistem pendidikannya. Sebuah laporan riset terbaru dari Pusat Pengembangan Pendidikan Vokasional Eropa (Cedefop) yang berjudul *Lifelong learning in 2000 and 2020: What has changed for the individual citizen?* menyajikan analisis tajam mengenai perjalanan panjang ini. Laporan ini bukan sekadar kumpulan data, melainkan sebuah narasi komprehensif tentang bagaimana benua tersebut berupaya membongkar "belenggu" sistem pendidikan tradisional demi mewujudkan konsep pembelajaran seumur hidup (*lifelong learning*). Dari perspektif seorang akademisi yang mendalami dunia vokasional dan teknologi, laporan ini adalah sebuah cermin berharga, yang tidak hanya merefleksikan keberhasilan dan kegagalan Eropa, tetapi juga menyiratkan tantangan dan peluang besar bagi negara seperti Indonesia.
 
 ## Pembahasan
 
