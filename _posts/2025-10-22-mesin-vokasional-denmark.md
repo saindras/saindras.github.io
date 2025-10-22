@@ -2,7 +2,7 @@
 layout: post
 title: "Mesin Vokasional Denmark: Telaah Kritis Sistem Pendidikan yang Mengikat Industri dan Mendorong Inovasi"
 date: 2025-10-22 21:00:00 +0800
-categories: [Pendidikan, Vokasional]
+categories: [Pendidikan Vokasional]
 tags: [Denmark, VET, Ketenagakerjaan, SDM, Kebijakan Publik, Link and Match]
 description: "Analisis mendalam terhadap sistem VET (Pendidikan Vokasional) Denmark, mengungkap bagaimana tata kelola, pendanaan wajib industri, dan fleksibilitas radikal menciptakan SDM unggul."
 ---
