@@ -55,7 +55,7 @@ webmaster_verifications:
 
 # Security Policy
 csp:
-  enabled: false
+  enabled: true
   script_src:
     - "'self'"
     - "'unsafe-inline'"
