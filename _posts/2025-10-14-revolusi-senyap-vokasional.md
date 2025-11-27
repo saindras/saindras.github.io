@@ -3,7 +3,7 @@ layout: post
 title: "Revolusi Senyap Vokasional: Belajar dari 20 Tahun Perjalanan Eropa Menuju Pembelajaran Seumur Hidup"
 date: 2025-10-14 09:00:00 +0800
 categories: [Pendidikan Vokasional, Kebijakan]
-tags: [pembelajaran-sepanjang-hayat, eropa, cedefop, smk, pendidikan-tinggi]
+tags: [pembelajaran-sepanjang-hayat, eropa, Cedefop, smk, pendidikan-tinggi]
 description: "Sebuah telaah mendalam terhadap laporan Cedefop yang mengungkap transformasi pendidikan vokasional di Eropa selama dua dekade, serta implikasinya bagi masa depan sistem pendidikan di Indonesia."
 ---
 

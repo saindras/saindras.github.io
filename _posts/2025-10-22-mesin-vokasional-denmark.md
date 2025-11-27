@@ -56,7 +56,7 @@ Keempat, vokasional di Indonesia masih terkesan sebagai jalur non-akademik yang 
 
 ## Simpulan
 
-Laporan CEDEFOP ini menunjukkan bahwa keunggulan VET Denmark tidak terletak pada satu program ajaib, tetapi pada *koherensi sistem*. Tata kelola yang dimiliki industri, pendanaan yang bersifat "gotong royong paksa" melalui AUB, dan fleksibilitas jalur pendidikan yang radikal (RPL dan AMU) adalah satu kesatuan yang tak terpisahkan.
+Laporan Cedefop ini menunjukkan bahwa keunggulan VET Denmark tidak terletak pada satu program ajaib, tetapi pada *koherensi sistem*. Tata kelola yang dimiliki industri, pendanaan yang bersifat "gotong royong paksa" melalui AUB, dan fleksibilitas jalur pendidikan yang radikal (RPL dan AMU) adalah satu kesatuan yang tak terpisahkan.
 
 Ini adalah pelajaran penting bagi Indonesia: "link and match" yang sejati bukanlah sebuah program atau MoU, melainkan sebuah desain sistem yang mengikat seluruh pemangku kepentingan—terutama industri—dalam satu takdir finansial dan operasional untuk menciptakan talenta.
 

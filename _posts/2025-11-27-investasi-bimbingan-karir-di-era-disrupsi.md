@@ -3,7 +3,7 @@ layout: post
 title: "Investasi Bimbingan Karir di Era Disrupsi: Sebuah Telaah Kritis untuk Pendidikan Vokasional"
 date: 2025-11-27 08:00:00 +0800
 categories: [Pendidikan Vokasional, Analisis Kebijakan]
-tags: [Career Guidance, CEDEFOP, TVET, Soft Skills, Future of Work]
+tags: [Career Guidance, Cedefop, TVET, Soft Skills, Future of Work]
 description: "Mengapa kompetensi teknis saja tidak lagi cukup? Bedah tuntas dokumen 'Investing in Career Guidance 2025' dan implikasinya bagi ekosistem vokasional Indonesia."
 ---
 
@@ -11,7 +11,7 @@ description: "Mengapa kompetensi teknis saja tidak lagi cukup? Bedah tuntas doku
 
 Di dunia *engineering* dan vokasional, kita sering terbuai oleh ilusi kompetensi teknis. Kita berasumsi bahwa jika seorang siswa bisa mengonfigurasi routing OSPF dengan sempurna, atau mampu merakit sistem IoT tanpa *bug*, maka masa depannya terjamin. Namun, realitas pasar kerja modern jauh lebih brutal dan dinamis daripada sekadar profisiensi teknis.
 
-Dokumen terbaru bertajuk *"Investing in Career Guidance"* (Edisi 2025) yang dirilis oleh konsorsium lembaga internasional (CEDEFOP, ETF, ILO, OECD, UNESCO, dan World Bank) memberikan tamparan keras bagi paradigma lama pendidikan kerja. Dokumen ini bukan sekadar pamflet kebijakan, melainkan sebuah cetak biru pertahanan diri (*survival blueprint*) bagi tenaga kerja global.
+Dokumen terbaru bertajuk *"Investing in Career Guidance"* (Edisi 2025) yang dirilis oleh konsorsium lembaga internasional (Cedefop, ETF, ILO, OECD, UNESCO, dan World Bank) memberikan tamparan keras bagi paradigma lama pendidikan kerja. Dokumen ini bukan sekadar pamflet kebijakan, melainkan sebuah cetak biru pertahanan diri (*survival blueprint*) bagi tenaga kerja global.
 
 Sebagai praktisi yang bergerak di irisan teknologi dan vokasional, saya melihat dokumen ini menggarisbawahi bahwa bimbingan karir tidak boleh lagi dianggap sebagai "suplemen" atau sekadar aktivitas administratif BKK (Bursa Kerja Khusus), melainkan infrastruktur kritis dalam pengembangan sumber daya manusia.
 

@@ -3,7 +3,7 @@ layout: post
 title: "Insentif Magang: Belajar dari Kesalahan dan Kebijaksanaan Eropa untuk Vokasional Indonesia"
 date: 2025-10-16 08:00:00 +0800
 categories: [Magang Industri, Kebijakan]
-tags: [pemagangan, sdm, industri 4.0, cedefop, super tax deduction]
+tags: [pemagangan, SDM, industri 4.0, Cedefop, super tax deduction]
 description: "Analisis mendalam laporan Cedefop 2025 mengenai insentif pemagangan di Eropa. Mengungkap jebakan subsidi, paradoks motivasi industri, dan implikasi konkret bagi kebijakan vokasional di Indonesia."
 ---
 
