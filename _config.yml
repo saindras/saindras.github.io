@@ -53,6 +53,20 @@ webmaster_verifications:
   baidu: # fill in your Baidu verification code
   facebook: n1eqzxt38us7k29n3vp4qrnryi3cis # fill in your Facebook verification code
 
+# Security Policy
+csp:
+  enabled: true
+  script_src:
+    - "'self'"
+    - "'unsafe-inline'"
+    - "'unsafe-eval'"
+    - "https://www.googletagmanager.com"
+    - "https://www.google-analytics.com"
+    - "https://gc.zgo.at"
+    - "https://saindras.goatcounter.com"
+    - "https://*.disqus.com"
+    - "https://*.disquscdn.com"
+
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
