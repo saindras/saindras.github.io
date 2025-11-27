@@ -61,7 +61,7 @@ analytics:
   google:
     id: G-HKSR39DP01 # fill in your Google Analytics ID
   goatcounter:
-    id: saindras.goatcounter.com # fill in your GoatCounter ID
+    id: saindras # fill in your GoatCounter ID
   umami:
     id: # fill in your Umami ID
     domain: # fill in your Umami domain
