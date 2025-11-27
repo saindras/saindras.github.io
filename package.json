@@ -27,7 +27,8 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
-    "bootstrap": "^5.3.6"
+    "bootstrap": "^5.3.6",
+    "jekyll-theme-chirpy": "^5.3.21"
   },
   "devDependencies": {
     "@babel/core": "^7.27.1",
