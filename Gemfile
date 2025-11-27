@@ -2,9 +2,9 @@
 
 source "https://rubygems.org"
 
-gemspec
+# gemspec  <-- MATIKAN BARIS INI (Beri tanda pagar di depannya)
 
-# TAMBAHAN PENTING: Paksa gunakan versi 7.4.1
+# GUNAKAN INI SAJA:
 gem "jekyll-theme-chirpy", "~> 7.4.1"
 
 gem "html-proofer", "~> 5.0", group: :test
