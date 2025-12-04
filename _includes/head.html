@@ -4,10 +4,10 @@
     default-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://gc.zgo.at https://saindras.goatcounter.com https://giscus.app https://cdn.jsdelivr.net;
     script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://gc.zgo.at https://saindras.goatcounter.com https://giscus.app https://cdn.jsdelivr.net;
     style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://fonts.googleapis.com https://giscus.app;
-    img-src 'self' data: https: http:;
+    img-src 'self' data: https: http: https://*.googleusercontent.com http://*.googleusercontent.com;
     font-src 'self' data: https://cdn.jsdelivr.net https://fonts.gstatic.com;
-    connect-src 'self' https:;
-    frame-src 'self' https://giscus.app;
+    connect-src 'self' https: https://giscus.app;
+    frame-src 'self' https://giscus.app https://*.googleusercontent.com http://*.googleusercontent.com;
   ">
   <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f7f7f7">
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
