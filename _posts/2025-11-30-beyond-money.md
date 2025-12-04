@@ -3,7 +3,7 @@ layout: post
 title: "Beyond Money: Menakar Efektivitas Insentif Pemagangan dan Relevansinya bagi Vokasional Indonesia"
 date: 2025-11-30 20:00:00 +0800
 categories: [Analisis Kebijakan, Pendidikan Vokasional]
-tags: [apprenticeship, TVET, policy, indonesia, Cedefop]
+tags: [apprenticeship, TVET, policy, Indonesia, Cedefop]
 description: "Sebuah telaah kritis terhadap laporan Cedefop 2025 tentang insentif pemagangan. Apakah uang adalah solusi utama? Bagaimana implikasinya bagi ekosistem vokasional dan industri di Indonesia?"
 ---
 

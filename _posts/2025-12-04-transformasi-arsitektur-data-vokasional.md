@@ -3,7 +3,7 @@ layout: post
 title: "Transformasi Arsitektur Data Vokasional: Bedah Laporan Tahunan NCVER 2024-25"
 date: 2025-12-04 09:30:00 +0800
 categories: [Analisis Kebijakan, Data Science]
-tags: [Vokasional, Databricks, VET Data Streamlining, Transformasi Digital]
+tags: [vokasional, Databricks, VET Data Streamlining, Transformasi Digital]
 description: "Sebuah tinjauan kritis terhadap pergeseran infrastruktur data pendidikan vokasional Australia dari sistem legacy ke cloud-native analytics dan implikasinya bagi Indonesia."
 ---
 

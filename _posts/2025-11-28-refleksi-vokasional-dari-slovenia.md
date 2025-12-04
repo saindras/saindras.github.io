@@ -3,7 +3,7 @@ layout: post
 title: "Refleksi Vokasional dari Slovenia: Dominasi Manufaktur, Paradoks Digital, dan Sinyal Bagi Indonesia"
 date: 2025-11-28 15:00:00 +0800
 categories: [Analisis, Pendidikan Vokasional]
-tags: [Vokasional, Industry 4.0, Kebijakan Publik, Workforce]
+tags: [vokasional, Industry 4.0, Kebijakan Publik, Workforce]
 description: "Telaah kritis laporan Cedefop 2025 mengenai pasar kerja Slovenia. Sebuah studi kasus tentang bagaimana negara industri menghadapi transisi digital dan demografi, serta implikasinya bagi revitalisasi SMK dan Politeknik di Indonesia."
 ---
 
