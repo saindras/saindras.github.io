@@ -5,7 +5,7 @@ source "https://rubygems.org"
 # gemspec  <-- MATIKAN BARIS INI (Beri tanda pagar di depannya)
 
 # GUNAKAN INI SAJA:
-gem "jekyll-theme-chirpy", "~> 7.4.1"
+gem "jekyll-theme-chirpy", "~> 7.5.0"
 
 gem "html-proofer", "~> 5.0", group: :test
 
